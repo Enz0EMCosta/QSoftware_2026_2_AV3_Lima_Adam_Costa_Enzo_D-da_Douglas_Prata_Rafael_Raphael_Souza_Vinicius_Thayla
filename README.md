@@ -4,7 +4,7 @@ Esqueleto do repositório da Atividade 3 da disciplina de Qualidade de Software 
 
 ## Resumo
 
-Esta atividade investiga, de forma exploratória, a relação entre F1 lexical e adequação humana no fluxo de Base de Conhecimento do Cherry Studio. Foram transcritas seis respostas A e seis B em 11/11/2026. A comparação ainda é inconclusiva: os prompts de sistema e as referências humanas não estão disponíveis, não há avaliações independentes nem métricas válidas registradas e a seleção de `tau=0,5` foi posterior às execuções. Este repositório documenta essas limitações e não apresenta conclusão de superioridade entre versões.
+Esta atividade documenta uma comparação exploratória planejada entre respostas do fluxo de Base de Conhecimento do Cherry Studio. Foram transcritas seis respostas A e seis B em 11/11/2026. O estudante informou que o mesmo prompt de sistema foi usado nas duas condições, logo a mudança planejada não foi aplicada. Há relato de notas gerais cegas de um colega (A: 9/10; B: 10/10 por saída), mas elas não seguem a rubrica 0/1/2. As referências atuais foram rascunhadas com IA e `tau=0,5` foi escolhido após as execuções. Não há base válida para concluir superioridade entre A e B.
 
 ## Projeto avaliado
 

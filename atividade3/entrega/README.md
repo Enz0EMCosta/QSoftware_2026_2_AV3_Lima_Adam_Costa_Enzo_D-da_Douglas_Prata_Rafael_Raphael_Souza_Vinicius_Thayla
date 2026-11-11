@@ -14,7 +14,7 @@ Conferir completude, consistência e segurança do pacote antes da entrega.
 - [ ] Prompts de sistema A/B transcritos e comparação que demonstre a única mudança; textos ainda não fornecidos.
 - [ ] Doze respostas transcritas; capturas/contextos e confirmação de igualdade de configuração A/B ainda pendentes.
 - [ ] Cálculo de F1 lexical executado e validado.
-- [ ] R1 concluído por revisor independente para 12 saídas; sem avaliações.
+- [ ] R1 formal na rubrica 0/1/2 para 12 saídas; há relato de notas gerais cegas 0–10 de um colega não executor (A=9/10 cada; B=10/10 cada), que não substituem R1.
 - [ ] R2 independente para quatro saídas; sem avaliações; não houve consenso.
 - [ ] Tabela consolidada completa com métricas e avaliações válidas; arquivo ainda tem apenas o cabeçalho.
 - [ ] Gráfico: [PREENCHER: caminho/arquivo].

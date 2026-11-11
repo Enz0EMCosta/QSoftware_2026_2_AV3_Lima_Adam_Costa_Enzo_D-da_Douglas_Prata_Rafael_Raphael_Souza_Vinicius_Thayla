@@ -7,7 +7,7 @@ Registro da divisão informada no relatório e do estado observado neste reposit
 | 1 | Plano GQM e casos | Raphael Ferreira Portella Bacelar | O relatório atribui a preparação a Raphael; o artefato original não foi fornecido. Enzo preparou rascunhos novos com IA, que não substituem referências humanas. |
 | 2 | Execução das versões A e B | Vinícius Morais Souza | As 12 respostas foram executadas/transcritas por Enzo, conforme relato nesta conversa. Prompts de sistema e igualdade da configuração entre A/B não estão comprovados. |
 | 3 | F1 lexical, anonimização e gráfico | Rafael Souza Prata | Não há cálculo F1, planilha anonimizada ou gráfico registrado. |
-| 4 | Avaliação humana principal (R1) | Thayla Almeida Figueiredo | Nenhuma avaliação R1 foi fornecida. Enzo não pode substituir o revisor independente por ter executado as saídas. |
+| 4 | Avaliação humana principal (R1) | Thayla Almeida Figueiredo | Um colega não executor teria avaliado às cegas as 12 saídas em escala geral 0–10 (A=9/10 cada; B=10/10 cada). Isso não equivale à rubrica oficial 0/1/2 e não foi registrado em `r1.csv`. |
 | 5 | Segunda revisão (R2), consenso e resultados | Douglas de Oliveira Déda | Nenhuma avaliação R2, comparação ou consenso foi fornecido. |
 | 6 | Ciclo de vida e versionamento | Enzo Emanuel Maia Costa | Documentação de ciclo de vida e manifestos preparada por Enzo; commits/tags A/B anteriores à execução não foram criados. |
 | 7 | Consolidação (decisão, relatório, repositório, vídeo) | Adam Guilherme Mendes Lima | README e checklist estruturados; decisão está inconclusiva; relatório final, PDF, slides e vídeo não foram fornecidos. |

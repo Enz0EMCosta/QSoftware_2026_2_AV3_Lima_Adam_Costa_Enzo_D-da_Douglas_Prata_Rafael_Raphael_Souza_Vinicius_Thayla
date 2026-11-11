@@ -12,15 +12,15 @@ Documentar a configuração da versão A para rastreabilidade da execução.
 |---|---|
 | Data de execução | 11/11/2026. Horários informados: CT01 e CT02 às 09:02; CT03, CT04 e CT05 às 09:03; CT06 às 09:04. |
 | Código/commit | Cherry Studio v2.0.13, commit `6e3af1beac02cdc53dd2aba382cb6af7475dc669` |
-| Mudança em relação à versão anterior | Baseline. O texto exato do prompt de sistema não foi fornecido. |
-| Prompt | `atividade3/versoes/A/prompt.md` registra a lacuna. As perguntas executadas estão em `atividade3/casos/casos-e-referencias.csv`; elas não são o prompt de sistema. |
+| Mudança em relação à versão anterior | Baseline. Prompt informado: “Responda a pergunta solicitada de acordo com a Base de Conhecimentos (Knowlege Base) informada”. |
+| Prompt | `atividade3/versoes/A/prompt.md`; texto informado pelo estudante, grafia literal ainda a confirmar contra captura/configuração. |
 | Modelo/revisão | Gemini Flash-Lite Latest (alias `latest`); revisão não congelável. |
 | Parâmetros | [NÃO INFORMADOS; não presumir temperatura, top-p ou outros valores.] |
 | Fonte/contexto | DOC-01 e DOC-04 são rascunhos sintéticos preparados com auxílio de IA nesta atividade. Arquivos/contextos efetivamente recuperados por execução não foram preservados no registro recebido. |
 | Casos/referências | CT01–CT06 em `atividade3/casos/casos-e-referencias.csv`. As referências atuais também foram preparadas com auxílio de IA e não são válidas como referências humanas finais. |
 | Rubrica/limiar | Rubrica original e limiar pré-teste não fornecidos. `tau = 0,5` foi escolhido posteriormente como parâmetro exploratório, não pré-registrado verificável. |
-| Resultados | Seis respostas A foram registradas em `atividade3/execucao/saidas-brutas/A-CT01.md` a `A-CT06.md`. F1 e avaliações humanas não foram calculados/registrados. |
-| Limitações de reprodução | O alias `latest` pode mudar; uma execução por caso/versão; prompt de sistema e parâmetros exatos não foram informados; contextos recuperados e capturas ausentes. |
+| Resultados | Seis respostas A foram registradas em `atividade3/execucao/saidas-brutas/A-CT01.md` a `A-CT06.md`. F1 e avaliações pela rubrica 0/1/2 não foram calculados/registrados. O estudante relata avaliação de colega em escala 9/10, sem detalhamento por dimensão. |
+| Limitações de reprodução | O alias `latest` pode mudar; uma execução por caso/versão; parâmetros exatos, contextos recuperados e capturas ausentes; prompt informado sem evidência visual da configuração. |
 
 ## Resultados
 

@@ -15,15 +15,15 @@ Registrar a conclusão sobre as versões A e B somente depois de aplicar o plano
 
 ## Resultados
 
-Há 12 respostas textuais registradas, seis por versão. Não há F1 válido, notas humanas, aprovações por versão nem concordância registrados. Portanto, não é possível concluir se B melhorou a qualidade nem aplicar quantitativamente o critério de avanço.
+Há 12 respostas textuais registradas, seis por versão. Há relato de notas gerais cegas em escala 0–10, mas não há F1 válido, avaliações pela rubrica, aprovações por versão nem concordância formal registrados. Portanto, não é possível concluir se B melhorou a qualidade nem aplicar quantitativamente o critério de avanço.
 
 ## Decisão
 
-**Decisão experimental: inconclusiva; não recomendar adoção de B nem declarar superioridade de A.** Os critérios originais de avanço/bloqueio não foram fornecidos para verificação; `tau = 0,5` foi indicado somente como escolha exploratória pós-hoc. Isso não é autorização de produção.
+**Decisão experimental: inconclusiva; não recomendar adoção de B nem declarar superioridade de A.** O estudante informa que A e B usaram o mesmo prompt de sistema, portanto o fator experimental previsto não foi variado. Um colega não executor teria avaliado às cegas cada saída com nota geral 0–10 (A: 9/10 cada; B: 10/10 cada), mas essas notas não correspondem à rubrica 0/1/2 e não permitem calcular a aprovação humana definida no plano. Os critérios originais de avanço/bloqueio não foram fornecidos para verificação; `tau = 0,5` foi indicado somente como escolha exploratória pós-hoc. Isso não é autorização de produção.
 
 ## Limitações e validade
 
-Uma execução por caso/versão; alias `latest` não congelável; texto dos prompts de sistema e parâmetros ausentes; equivalência de base/configuração entre A e B não demonstrada; capturas e contextos recuperados ausentes; referências atuais geradas com auxílio de IA, incompatíveis com a exigência de referência humana; nenhuma avaliação humana independente; rubrica original e critérios completos não fornecidos.
+Uma execução por caso/versão; alias `latest` não congelável; mesmo prompt relatado para A e B, sem manipulação do fator previsto; parâmetros e equivalência de base/configuração não demonstrados; capturas e contextos recuperados ausentes; referências atuais geradas com auxílio de IA, incompatíveis com a exigência de referência humana; notas gerais 9/10 e 10/10 relatadas sem fichas/justificativas e incompatíveis com a rubrica 0/1/2; rubrica original e critérios completos não fornecidos.
 
 ## Acompanhamento
 

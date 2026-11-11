@@ -1,10 +1,10 @@
 # Prompt — Versão A (baseline)
 
-Registro do prompt de sistema baseline usado na versão A. O texto exato do prompt de sistema não foi fornecido. As perguntas abaixo são entradas dos casos, não substituem o prompt de sistema.
+Registro do prompt de sistema informado pelo estudante para a versão A.
 
 ## Tarefa
 
-Prompt de sistema efetivamente usado: [NÃO INFORMADO — obter o texto literal da configuração A no Cherry Studio; não reconstruir de memória.]
+> Responda a pergunta solicitada de acordo com a Base de Conhecimentos (Knowlege Base) informada
 
 ## Perguntas executadas em A
 
@@ -13,8 +13,8 @@ Prompt de sistema efetivamente usado: [NÃO INFORMADO — obter o texto literal 
 
 ## Análise do artefato
 
-O prompt de sistema não está registrado. Portanto, não é possível reconstruir a configuração A nem comprovar por comparação textual que B diferiu somente nesse fator.
+O estudante informou que este mesmo texto foi usado em todas as execuções A e B. A grafia `Knowlege Base` foi preservada como recebida; confirmar com a configuração original/captura se é literal.
 
 ## Resultados
 
-As respostas recebidas estão em `atividade3/execucao/saidas-brutas/A-CT01.md` a `A-CT06.md`. Isso não substitui o registro do prompt de sistema.
+As respostas recebidas estão em `atividade3/execucao/saidas-brutas/A-CT01.md` a `A-CT06.md`.

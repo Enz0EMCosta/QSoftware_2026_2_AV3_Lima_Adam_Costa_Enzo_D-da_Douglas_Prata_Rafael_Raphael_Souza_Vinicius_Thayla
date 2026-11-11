@@ -33,7 +33,7 @@ As versões experimentais A/B ainda dependem da definição e do registro dos pr
 
 ## Versionamento das configurações A e B
 
-As respostas A e B já foram executadas em 11/11/2026, mas os textos dos prompts de sistema não foram preservados e não há commits/tags A/B anteriores à execução. Não criar tags retroativas como se as configurações tivessem sido congeladas antes dos testes. O identificador do Cherry Studio é conhecido, mas a configuração experimental completa não é reconstruível.
+As respostas A e B já foram executadas em 11/11/2026. O estudante informou posteriormente o mesmo texto de prompt de sistema para ambas as condições; não há commits/tags A/B anteriores à execução. Não criar tags retroativas como se as configurações tivessem sido congeladas antes dos testes. O texto foi registrado nos arquivos de prompt, mas a configuração experimental completa não é reconstruível.
 
 Para uma repetição futura autorizada, versionar cada configuração antes de executar qualquer caso:
 
@@ -53,7 +53,7 @@ Os nomes acima são sugestões para uma nova coleta, não tags já criadas nem i
 
 ### É possível reconstruir uma saída pelo manifesto?
 
-Ainda não integralmente. O manifesto registra o commit do Cherry Studio, a versão do modelo e as limitações conhecidas, mas os prompts, os parâmetros efetivamente usados, a data, os arquivos/contexto recuperados e os artefatos de execução precisam ser registrados antes/depois de cada execução. Mesmo com esses dados, o alias `latest` não congela a revisão do modelo e pode mudar; além disso, uma execução por caso/versão não mede a variabilidade entre execuções. Assim, a reconstrução da configuração pode ser documentada, mas a reprodução exata da saída não é garantida.
+Ainda não integralmente. O manifesto registra o commit do Cherry Studio, a versão do modelo e o prompt informado, mas parâmetros efetivos, arquivos/contexto recuperados e capturas não estão disponíveis. Mesmo com esses dados, o alias `latest` não congela a revisão do modelo e pode mudar; além disso, uma execução por caso/versão não mede a variabilidade entre execuções. A configuração pode ser descrita parcialmente, mas a reprodução exata da saída não é garantida.
 
 ### Que sinal acompanhar e como voltar a A?
 
@@ -84,7 +84,7 @@ Não sugerir que os esqueletos ou o diagrama são evidência experimental.
 
 ## Análise do artefato
 
-Com os campos pendentes dos manifestos preenchidos e os artefatos de execução preservados, a cadeia caso -> saída -> nota -> decisão -> versão pode ser auditada. No estado atual, essa rastreabilidade ainda não pode ser demonstrada porque os prompts experimentais, seus commits/tags e as evidências de execução não foram registrados.
+Com metadados e evidências completos, a cadeia caso -> saída -> nota -> decisão -> versão pode ser auditada. No estado atual, a rastreabilidade é parcial: o prompt foi relatado após as execuções, A e B usaram o mesmo texto, não há commits/tags de configuração anteriores, e faltam capturas/contextos e notas na rubrica oficial.
 
 ## Resultados
 
