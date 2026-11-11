@@ -84,7 +84,7 @@ Não sugerir que os esqueletos ou o diagrama são evidência experimental.
 
 ## Análise do artefato
 
-Com metadados e evidências completos, a cadeia caso -> saída -> nota -> decisão -> versão pode ser auditada. No estado atual, a rastreabilidade é parcial: os prompts foram relatados após as execuções, não há commits/tags de configuração anteriores, faltam capturas/contextos e as notas relatadas não seguem a rubrica oficial.
+Com metadados e evidências completos, a cadeia caso -> saída -> nota -> decisão -> versão pode ser auditada. No estado atual, a rastreabilidade é parcial: os prompts foram relatados após as execuções, não há commits/tags de configuração anteriores, faltam capturas/contextos e justificativas individuais; a rubrica foi formalizada após a coleta.
 
 ## Resultados
 

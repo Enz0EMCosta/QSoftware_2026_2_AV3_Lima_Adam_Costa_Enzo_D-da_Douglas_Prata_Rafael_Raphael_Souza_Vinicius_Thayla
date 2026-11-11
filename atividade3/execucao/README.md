@@ -31,4 +31,4 @@ As 12 respostas textuais foram recebidas e registradas; horários informados: A-
 
 ## Resultados
 
-Há 12 respostas transcritas, mas os resultados experimentais não estão completos: faltam evidências de captura/contexto e referências humanas finais. Os prompts distintos foram informados pelo estudante após as execuções. Existe relato de avaliação geral cega por um colega não executor, mas não no formato da rubrica oficial; R1/R2 continuam sem avaliação formal.
+Há 12 respostas transcritas e escores R1 por dimensão reportados para todas (2,2,2,0). Faltam evidências de captura/contexto, justificativas individuais e referências humanas finais. Os prompts distintos foram informados pelo estudante após as execuções. R2 e concordância R1-R2 continuam pendentes.
