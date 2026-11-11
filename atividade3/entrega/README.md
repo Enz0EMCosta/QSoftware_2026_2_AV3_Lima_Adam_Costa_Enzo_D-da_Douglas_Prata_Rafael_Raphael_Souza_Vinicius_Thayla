@@ -14,8 +14,8 @@ Conferir completude, consistência e segurança do pacote antes da entrega.
 - [ ] Prompts A/B transcritos a partir de relato posterior; falta evidência que confirme os prompts/configurações usados e que só o prompt mudou.
 - [x] Doze respostas transcritas; quatro capturas parciais arquivadas (A-CT01, A-CT02, B-CT02, B-CT04/fonte). Faltam oito capturas, prompts/configuração e contextos completos.
 - [x] Cálculo exploratório de F1 lexical executado com `tau=0,5` pós-hoc; conferir ressalvas em `atividade3/metricas/README.md`.
-- [ ] R1: há escores relatados em `r1.csv` (6/6 aprovações provisórias por versão); justificativas específicas/evidências originais ainda pendentes.
-- [x] R2: quatro escores transcritos conforme relato do estudante; concordância R1–R2 reportada de 4/4; justificativa geral, sem fichas anexadas.
+- [ ] R1: escores reportados organizados em ficha retrospectiva; confirmação dos avaliadores e evidências específicas pendentes.
+- [ ] R2: quatro escores reportados organizados em ficha retrospectiva; concordância R1–R2 relatada 4/4, mas confirmação e evidências específicas pendentes.
 - [x] Tabela consolidada contém 12 saídas, sinais automáticos exploratórios, R1 e quatro avaliações R2 reportadas.
 - [x] Gráfico exploratório: `atividade3/resultados/grafico-resultados.svg`.
 - [x] Diagrama e análise do ciclo de vida documentados; limitações de reconstrução registradas.
@@ -27,7 +27,7 @@ Conferir completude, consistência e segurança do pacote antes da entrega.
 
 ## Análise do artefato
 
-R2 e gráfico foram registrados a partir dos dados informados pelo estudante. Quatro capturas de execução foram arquivadas, mas são parciais: não mostram configuração do prompt e a maioria dos contextos não está preservada. A imagem B-CT04 mostra que DOC-04 ainda exibe um aviso de revisão pendente. Faltam as demais capturas e formulários originais das avaliações. Não apresentar autorrelatos como evidência verificada.
+R2 e gráfico foram registrados a partir dos dados informados pelo estudante. Fichas reconstruídas retrospectivamente foram criadas em `atividade3/avaliacao/`; devem ser confirmadas pelos avaliadores, e não substituem registros originais. Quatro capturas de execução foram arquivadas, mas são parciais: não mostram configuração do prompt e a maioria dos contextos não está preservada. A imagem B-CT04 mostra que DOC-04 ainda exibe um aviso de revisão pendente. Faltam as demais capturas e confirmação das avaliações. Não apresentar autorrelatos como evidência verificada.
 
 ## Resultados
 

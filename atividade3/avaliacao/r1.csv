@@ -1,13 +1,13 @@
-id_anonimo,correcao,relevancia,suporte,falha_critica,aprovada,justificativa
-Q7M4P2,2,2,2,0,1,"Escores transcritos do relato do estudante; avaliador informou ausência de erros; justificativa/evidência específica pendente."
-V3K8R1,2,2,2,0,1,"Escores transcritos do relato do estudante; avaliador informou ausência de erros; justificativa/evidência específica pendente."
-N5D2W9,2,2,2,0,1,"Escores transcritos do relato do estudante; avaliador informou ausência de erros; justificativa/evidência específica pendente."
-B8T6J3,2,2,2,0,1,"Escores transcritos do relato do estudante; avaliador informou ausência de erros; justificativa/evidência específica pendente."
-H4C9L7,2,2,2,0,1,"Escores transcritos do relato do estudante; avaliador informou ausência de erros; justificativa/evidência específica pendente."
-R2Y5F8,2,2,2,0,1,"Escores transcritos do relato do estudante; avaliador informou ausência de erros; justificativa/evidência específica pendente."
-M6A1Z4,2,2,2,0,1,"Escores transcritos do relato do estudante; avaliador informou ausência de erros; justificativa/evidência específica pendente."
-P9G3X6,2,2,2,0,1,"Escores transcritos do relato do estudante; avaliador informou ausência de erros; justificativa/evidência específica pendente."
-C1U7K5,2,2,2,0,1,"Escores transcritos do relato do estudante; avaliador informou ausência de erros; justificativa/evidência específica pendente."
-W8L2D5,2,2,2,0,1,"Escores transcritos do relato do estudante; avaliador informou ausência de erros; justificativa/evidência específica pendente."
-F3J6Q9,2,2,2,0,1,"Escores transcritos do relato do estudante; avaliador informou ausência de erros; justificativa/evidência específica pendente."
-T5N8B1,2,2,2,0,1,"Escores transcritos do relato do estudante; avaliador informou ausência de erros; justificativa/evidência específica pendente."
+id_anonimo,correcao,relevancia,suporte,falha_critica,aprovada,justificativa,natureza_registro,data_reconstrucao,evidencia_textual,confirmacao_avaliador
+Q7M4P2,2,2,2,0,1,"Escores transcritos do relato do estudante; avaliador informou ausência de erros; justificativa/evidência específica pendente.","Reconstrução posterior baseada em relato do estudante; não é ficha contemporânea.",2026-11-11,,PENDENTE
+V3K8R1,2,2,2,0,1,"Escores transcritos do relato do estudante; avaliador informou ausência de erros; justificativa/evidência específica pendente.","Reconstrução posterior baseada em relato do estudante; não é ficha contemporânea.",2026-11-11,,PENDENTE
+N5D2W9,2,2,2,0,1,"Escores transcritos do relato do estudante; avaliador informou ausência de erros; justificativa/evidência específica pendente.","Reconstrução posterior baseada em relato do estudante; não é ficha contemporânea.",2026-11-11,,PENDENTE
+B8T6J3,2,2,2,0,1,"Escores transcritos do relato do estudante; avaliador informou ausência de erros; justificativa/evidência específica pendente.","Reconstrução posterior baseada em relato do estudante; não é ficha contemporânea.",2026-11-11,,PENDENTE
+H4C9L7,2,2,2,0,1,"Escores transcritos do relato do estudante; avaliador informou ausência de erros; justificativa/evidência específica pendente.","Reconstrução posterior baseada em relato do estudante; não é ficha contemporânea.",2026-11-11,,PENDENTE
+R2Y5F8,2,2,2,0,1,"Escores transcritos do relato do estudante; avaliador informou ausência de erros; justificativa/evidência específica pendente.","Reconstrução posterior baseada em relato do estudante; não é ficha contemporânea.",2026-11-11,,PENDENTE
+M6A1Z4,2,2,2,0,1,"Escores transcritos do relato do estudante; avaliador informou ausência de erros; justificativa/evidência específica pendente.","Reconstrução posterior baseada em relato do estudante; não é ficha contemporânea.",2026-11-11,,PENDENTE
+P9G3X6,2,2,2,0,1,"Escores transcritos do relato do estudante; avaliador informou ausência de erros; justificativa/evidência específica pendente.","Reconstrução posterior baseada em relato do estudante; não é ficha contemporânea.",2026-11-11,,PENDENTE
+C1U7K5,2,2,2,0,1,"Escores transcritos do relato do estudante; avaliador informou ausência de erros; justificativa/evidência específica pendente.","Reconstrução posterior baseada em relato do estudante; não é ficha contemporânea.",2026-11-11,,PENDENTE
+W8L2D5,2,2,2,0,1,"Escores transcritos do relato do estudante; avaliador informou ausência de erros; justificativa/evidência específica pendente.","Reconstrução posterior baseada em relato do estudante; não é ficha contemporânea.",2026-11-11,,PENDENTE
+F3J6Q9,2,2,2,0,1,"Escores transcritos do relato do estudante; avaliador informou ausência de erros; justificativa/evidência específica pendente.","Reconstrução posterior baseada em relato do estudante; não é ficha contemporânea.",2026-11-11,,PENDENTE
+T5N8B1,2,2,2,0,1,"Escores transcritos do relato do estudante; avaliador informou ausência de erros; justificativa/evidência específica pendente.","Reconstrução posterior baseada em relato do estudante; não é ficha contemporânea.",2026-11-11,,PENDENTE
