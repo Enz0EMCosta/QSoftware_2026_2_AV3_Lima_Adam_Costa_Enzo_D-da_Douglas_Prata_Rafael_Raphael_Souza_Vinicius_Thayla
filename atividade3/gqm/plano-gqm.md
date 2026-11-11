@@ -44,11 +44,11 @@ Registrar falha crítica como 0 (ausente) ou 1 (presente). Qualquer falha críti
 
 ## Critério de avanço
 
-O conteúdo do critério atribuído a Raphael não foi fornecido. Não há critério de avanço verificável neste repositório. Não criar um critério retroativo com base nos resultados nem tratar a decisão experimental como autorização para produção.
+O critério original atribuído a Raphael não foi fornecido. Para orientar somente uma possível próxima avaliação controlada (não produção), fica documentado o seguinte critério operacional **definido após a coleta**: considerar B para uma nova etapa confirmatória se sua aprovação R1 não for inferior à de A e se não houver falha crítica reportada em B por R1 ou por R2 nas saídas que revisou. Este critério é pós-hoc e não pode ser apresentado como pré-registrado nem usado para afirmar superioridade ou autorizar produção.
 
 ## Condição de bloqueio
 
-O conteúdo da condição atribuída a Raphael não foi fornecido. Não há condição de bloqueio pré-registrada verificável neste repositório. A regra de falha crítica descrita neste esqueleto não permite inferir, retroativamente, o bloqueio originalmente definido para a versão.
+O conteúdo da condição original atribuída a Raphael não foi fornecido. Como regra operacional para a próxima etapa, definida também após a coleta, qualquer falha crítica em B bloquearia sua consideração para essa etapa até revisão. Não se pode inferir ou reconstruir a condição originalmente pré-registrada.
 
 ## Registro pré-teste
 
@@ -58,8 +58,8 @@ O conteúdo da condição atribuída a Raphael não foi fornecido. Não há cond
 
 ## Análise do artefato
 
-O relatório e o estudante atribuem a Raphael um plano preparado em 10/11/2026, antes das respostas de 11/11/2026. Contudo, o arquivo/commit original não foi fornecido, e os valores do limiar original e dos critérios não foram informados. O `tau = 0,5` registrado acima é pós-hoc e exploratório; este arquivo atualizado não é prova de pré-registro. As referências em uso também foram geradas como rascunhos com auxílio de IA e não atendem à exigência de referências escritas por uma pessoa.
+O relatório e o estudante atribuem a Raphael um plano preparado em 10/11/2026, antes das respostas de 11/11/2026. Contudo, o arquivo/commit original, o limiar original e os critérios originais não foram fornecidos. O `tau = 0,5` e o critério operacional descrito acima são pós-hoc e exploratórios; este arquivo atualizado não é prova de pré-registro. As referências são baseadas em fontes sintéticas preparadas com auxílio de IA; a revisão humana posterior é relato do estudante, sem nome/data ou ficha anexada. A captura de B-CT04 mostra que DOC-04 ainda traz o aviso de que precisa de revisão/aprovação antes do uso, o que impede afirmar que a fonte foi validada previamente.
 
 ## Resultados
 
-[PREENCHER após executar os casos; não inserir resultados antes da coleta.]
+R1 reportou 6/6 aprovações em A e em B. O F1 médio exploratório foi 0,479003 em A e 0,503373 em B; a concordância entre sinal automático e R1 foi 5/12. R1 e R2 concordaram em 4/4 decisões nas saídas revisadas (CT01 e CT05 em A e B), conforme relato do estudante; justificativa R2 geral: “Respostas Esperadas e Condizentes”. Sob o critério pós-hoc de continuação, B atende numericamente aos dois requisitos reportados (aprovação R1 não inferior e nenhuma falha crítica reportada nas revisões), mas isso significa somente que poderia ser considerada para uma nova avaliação confirmatória. Não implica superioridade nem adoção.

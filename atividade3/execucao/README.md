@@ -25,10 +25,21 @@ Executar CT01–CT06 uma vez em cada versão (A e B) e guardar as saídas em `sa
 
 Em cada arquivo de saída, registrar pergunta/caso, versão, configuração, resposta literal e referência à captura pertinente. Remover ou anonimizar dados pessoais e credenciais antes de publicar.
 
+## Evidências recebidas
+
+| Captura | Evidência observável |
+|---|---|
+| `capturas/A-CT01.png` | A-CT01, modelo Gemini Flash-Lite Latest, horário 09:01. |
+| `capturas/A-CT02.png` | A-CT02, modelo Gemini Flash-Lite Latest, horário 09:02. |
+| `capturas/B-CT02.png` | B-CT02, modelo Gemini Flash-Lite Latest, horário 09:13. |
+| `capturas/B-CT04-fonte.png` | B-CT04 e painel da fonte DOC-04, que a descreve como rascunho sintético de IA sujeito a revisão/aprovação e exibe campos editoriais “PREENCHER”. |
+
 ## Análise do artefato
 
-As 12 respostas textuais foram recebidas e registradas; horários informados: A-CT01/02 09:02, A-CT03/04/05 09:03, A-CT06 09:04, B-CT01/02/03/04 09:13 e B-CT05/06 09:14, todas em 11/11/2026. O estudante confirmou conversas novas para os seis casos em cada condição. Capturas e trechos de contexto recuperados não foram fornecidos. O modelo foi identificado como Gemini Flash-Lite Latest; a igualdade de todos os demais parâmetros/base entre A e B não foi demonstrada. O estudante corrigiu o relato anterior e informou prompts de sistema distintos para A e B; os textos foram registrados após as execuções, sem capturas arquivadas para confirmação independente.
+As 12 respostas textuais foram recebidas e registradas. Horários documentados: A-CT01 09:01 (corrigido pela captura), A-CT02 09:02, A-CT03/04/05 09:03, A-CT06 09:04, B-CT01/02/03/04 09:13 e B-CT05/06 09:14, em 11/11/2026. O estudante confirmou conversas novas para os seis casos em cada condição. Agora há quatro capturas parciais; as oito outras saídas não têm captura arquivada. As imagens mostram perguntas/respostas, modelo e, em B-CT04, o painel de DOC-04; nenhuma mostra o prompt de sistema nem todos os parâmetros. O modelo é identificado como Gemini Flash-Lite Latest; a igualdade de demais parâmetros/base entre A e B não está comprovada. Os prompts distintos foram relatados após as execuções, sem captura da configuração.
+
+O painel de DOC-04 em B-CT04 contém explicitamente o aviso de que se trata de rascunho sintético produzido com IA e que precisava de revisão/aprovação humana antes do uso. Também mostra campos editoriais “PREENCHER”, indicando que o contexto citado continha material de rascunho além das regras. Embora o estudante relate revisão posterior das referências, a imagem não comprova que a fonte exibida foi revisada/aprovada antes da execução. Tratar os resultados como exploratórios e consultar o professor sobre a adequação da fonte.
 
 ## Resultados
 
-Há 12 respostas transcritas e escores R1 por dimensão reportados para todas (2,2,2,0). Faltam evidências de captura/contexto, justificativas individuais e referências humanas finais. Os prompts distintos foram informados pelo estudante após as execuções. R2 e concordância R1-R2 continuam pendentes.
+Há 12 respostas transcritas, quatro capturas parciais e avaliações R1/R2 reportadas nos arquivos próprios. Faltam capturas de oito respostas, tela dos prompts/configurações, contexto completo de cada execução e fichas originais/justificativas específicas dos avaliadores. A captura de B-CT04 também evidencia o aviso de rascunho sintético em DOC-04; não afirmar que fontes aprovadas antes da execução foram comprovadas.

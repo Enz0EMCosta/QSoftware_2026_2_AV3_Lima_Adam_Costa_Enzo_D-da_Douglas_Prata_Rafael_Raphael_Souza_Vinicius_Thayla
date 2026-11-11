@@ -7,11 +7,11 @@ Registro da resposta fornecida pelo estudante para a execução A-CT01.
 - Caso: CT01
 - Versão: A (confirmada pelo estudante)
 - Data: 11/11/2026
-- Horário exibido/informado: 11/11/2026, 09:02 (um minuto antes de CT03, conforme informação do estudante)
-- Aplicativo/modelo/base: Cherry Studio 2.0.13, Gemini Flash-Lite Latest e a mesma base/configuração usadas nas demais respostas, conforme confirmação do estudante.
+- Horário exibido: 11/11/2026, 09:01 (confirmado pela captura; corrige o horário 09:02 informado anteriormente).
+- Aplicativo/modelo/base: Cherry Studio 2.0.13 e Gemini Flash-Lite Latest. A igualdade de base/configuração com as demais respostas é relato do estudante, não demonstrada pela captura.
 - Conversa nova: sim, conforme confirmação do estudante.
-- Captura: [PREENCHER: arquivo da captura, se disponível]
-- Contexto recuperado: a resposta exibiu uma citação `1`; o trecho/citação de origem não foi fornecido.
+- Captura: [`../capturas/A-CT01.png`](../capturas/A-CT01.png)
+- Contexto recuperado: a resposta exibe citação `1`; o trecho não está aberto nesta captura.
 
 ## Pergunta
 

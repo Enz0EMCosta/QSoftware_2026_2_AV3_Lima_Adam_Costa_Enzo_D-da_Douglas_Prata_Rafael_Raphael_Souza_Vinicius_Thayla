@@ -9,7 +9,7 @@ Registro da resposta fornecida pelo estudante para a execução B-CT02.
 - Data/hora exibida pelo aplicativo: 11/11/2026, 09:13
 - Aplicativo/modelo/base: Cherry Studio (identificado na transcrição), Gemini Flash-Lite Latest. A igualdade da base e dos demais parâmetros em relação a A não foi confirmada.
 - Conversa nova: sim, conforme confirmação do estudante.
-- Captura: [PREENCHER: arquivo da captura, se disponível]
+- Captura: [`../capturas/B-CT02.png`](../capturas/B-CT02.png)
 - Contexto recuperado: a resposta exibiu uma citação `1`; o trecho/citação de origem não foi fornecido.
 
 ## Pergunta

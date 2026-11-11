@@ -8,12 +8,12 @@ Documentar CT01–CT04 (funcionais), CT05 (sem evidência suficiente) e CT06 (va
 
 ## Integridade das referências
 
-As perguntas e referências atuais são rascunhos preparados com auxílio de IA, a partir dos documentos sintéticos igualmente preparados como rascunhos em `atividade3/fontes/`. Não são os casos originais de Raphael nem documentos recuperados da AV2. Como a referência final precisa ser escrita por uma pessoa, um integrante deve redigir ou reescrever cada referência a partir das fontes, revisar as perguntas e aprovar o conjunto antes do teste. Não declarar revisão humana antes que ela ocorra.
+As fontes em `atividade3/fontes/` são documentos sintéticos preparados com auxílio de IA; não são documentos recuperados da AV2. O estudante relata que uma pessoa reescreveu/revisou as referências em `casos-e-referencias2.csv`, com poucas mudanças em relação aos rascunhos. O nome da pessoa e a data da revisão não foram informados, e não há registro independente anexado. Além disso, a captura de B-CT04 mostra que o painel da fonte DOC-04 ainda inclui o aviso de rascunho de IA que requer revisão/aprovação antes do uso; por isso, a imagem não comprova que a fonte consultada foi aprovada antes da execução. Os casos não devem ser apresentados como casos originais de Raphael.
 
 ## Análise do artefato
 
-Verificar a cobertura funcional dos quatro primeiros casos, a ausência deliberada de evidência suficiente em CT05 e a relação de variação entre CT06 e CT01. Revisor humano, data e aprovação: [PREENCHER antes da execução].
+Verificar a cobertura funcional dos quatro primeiros casos, a ausência deliberada de evidência suficiente em CT05 e a relação de variação entre CT06 e CT01. Revisor humano/data: não informados; revisão é autorrelato do estudante.
 
 ## Resultados
 
-[PREENCHER: observações sobre a execução dos casos; não inserir saídas inventadas.]
+As seis referências foram usadas no cálculo exploratório de F1 após o relato de revisão humana. A falta de identificação/data, a ausência de registro da revisão e o aviso ainda visível no DOC-04 limitam a rastreabilidade e a validade das referências como ground truth humano.

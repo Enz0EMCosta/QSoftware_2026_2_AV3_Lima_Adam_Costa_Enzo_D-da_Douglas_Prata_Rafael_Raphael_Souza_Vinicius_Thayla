@@ -17,7 +17,7 @@ flowchart LR
     B --> E
     E --> S[Guardar saídas, metadados e capturas]
     S --> AV[Avaliação automática e humana]
-    AV --> D[Decisão conforme critérios pré-registrados]
+    AV --> D[Decisão exploratória; critérios originais não recuperados]
     D --> M[Acompanhar sinais e revisar]
     M -->|Condição de bloqueio ou regressão| R[Reverter configuração para A]
     R --> A
@@ -29,7 +29,7 @@ flowchart LR
 caso (CT01–CT06) -> saída (versão-caso) -> nota (R1; R2 em CT01/CT05) -> decisão -> versão (A/B)
 ```
 
-As versões experimentais A/B ainda dependem da definição e do registro dos prompts; as saídas, notas e decisões só podem ser vinculadas depois das respectivas etapas. Preservar os prompts, os manifestos e os resultados sem sobrescrever versões anteriores.
+As saídas e notas foram vinculadas a casos e versões nos registros atuais; contudo, os prompts foram informados após as execuções e não há capturas/contextos arquivados nem commits/tags experimentais anteriores. A rastreabilidade é parcial. Preservar os registros sem sobrescrever versões anteriores.
 
 ## Versionamento das configurações A e B
 
@@ -47,7 +47,9 @@ Os nomes acima são sugestões para uma nova coleta, não tags já criadas nem i
 
 | Caso | Saída A/B | Identificador anônimo | Nota(s) | Decisão | Versão/manifesto |
 |---|---|---|---|---|---|
-| [PREENCHER] | [PREENCHER] | [PREENCHER] | [PREENCHER] | [PREENCHER] | [PREENCHER] |
+| CT01 | A e B | Q7M4P2 / M6A1Z4 | R1 e R2 reportados: 2,2,2,0 em ambas | Aprovada; concordância reportada | Manifestos A/B |
+| CT05 | A e B | H4C9L7 / F3J6Q9 | R1 e R2 reportados: 2,2,2,0 em ambas | Aprovada; concordância reportada | Manifestos A/B |
+| Demais CT | CT02–CT04, CT06 em A/B | Ver tabela consolidada | R1 reportado: 2,2,2,0 | Aprovada por R1 reportado | Manifestos A/B |
 
 ## Reprodução e reversão
 
@@ -57,7 +59,7 @@ Ainda não integralmente. O manifesto registra o commit do Cherry Studio, a vers
 
 ### Que sinal acompanhar e como voltar a A?
 
-Acompanhar, por versão, a aprovação humana R1 (aprovadas/6), a contagem de falhas críticas e a concordância entre sinal automático e R1 (concordantes/12 no conjunto). Usar os limites de avanço e bloqueio registrados previamente no plano GQM; eles ainda precisam ser preenchidos antes do teste. Uma falha crítica ou o não atendimento ao critério pré-registrado deve bloquear a adoção, não justificar ajuste retroativo do critério.
+Acompanhar, por versão, a aprovação humana R1 (aprovadas/6), a contagem de falhas críticas e a concordância entre sinal automático e R1 (concordantes/12 no conjunto). O critério original não foi recuperado; o critério operacional atual foi definido após a coleta e serve somente para orientar nova avaliação confirmatória. Qualquer falha crítica deve bloquear a consideração de B até revisão, conforme regra operacional atual, sem alegar que essa regra foi pré-registrada.
 
 Para voltar à configuração A, interromper o uso de B, restaurar literalmente o prompt de sistema arquivado em `atividade3/versoes/A/prompt.md` e conferir o manifesto A, mantendo constante o commit do software, o modelo selecionado, os parâmetros, as fontes e o contexto sempre que operacionalmente possível. Registrar a reversão, sua data, o motivo e uma verificação com casos definidos pela equipe; não substituir os registros anteriores de B.
 
@@ -68,9 +70,9 @@ Para voltar à configuração A, interromper o uso de B, restaurar literalmente 
 - **A:** baseline com prompt simples.
 - **B:** mudança controlada somente no prompt de sistema.
 - **Execução:** seis casos por versão; preservar saídas, metadados e capturas.
-- **Avaliação:** F1 automático e avaliações humanas R1/R2, com rastreabilidade até a decisão.
+- **Avaliação:** F1 automático e avaliações humanas R1/R2, com rastreabilidade até a decisão. Resultados atuais: concordância R1–R2 reportada 4/4 nas quatro saídas revisadas.
 - **Reprodução:** o manifesto registra a configuração, mas `latest` pode mudar e uma execução por caso não mede variabilidade.
-- **Reversão:** diante de bloqueio ou regressão segundo critérios pré-registrados, restaurar o prompt A e registrar a ação.
+- **Reversão:** diante de falha crítica, bloquear B conforme regra operacional atual, definida pós-coleta; restaurar A e registrar a ação.
 
 **Nota para apresentação:** não afirmar que as versões foram congeladas, executadas ou comparadas até haver commits, tags e evidências reais.
 
@@ -78,14 +80,14 @@ Para voltar à configuração A, interromper o uso de B, restaurar literalmente 
 
 > Olá, somos a Equipe 04 da disciplina de Qualidade de Software da UFS. Nesta atividade, estudamos o fluxo de Base de Conhecimento do Cherry Studio e planejamos comparar duas configurações que diferem apenas no prompt de sistema. Vou apresentar o ciclo de vida e o versionamento previstos, as limitações de reprodução e os critérios para orientar a decisão. Se concluída, a comparação será apresentada com base nas execuções e avaliações registradas neste repositório.
 
-> Se as execuções e avaliações ainda não estiverem concluídas, substituir a última frase por: “A comparação ainda não foi concluída; apresentaremos o plano e as limitações, sem alegar resultados experimentais.”
+> Apresentar os resultados como exploratórios e reportados, distinguindo-os de evidência independente não anexada.
 
 Não sugerir que os esqueletos ou o diagrama são evidência experimental.
 
 ## Análise do artefato
 
-Com metadados e evidências completos, a cadeia caso -> saída -> nota -> decisão -> versão pode ser auditada. No estado atual, a rastreabilidade é parcial: os prompts foram relatados após as execuções, não há commits/tags de configuração anteriores, faltam capturas/contextos e justificativas individuais; a rubrica foi formalizada após a coleta.
+Com metadados e evidências completos, a cadeia caso -> saída -> nota -> decisão -> versão pode ser auditada. No estado atual, a rastreabilidade é parcial: os prompts foram relatados após as execuções, não há commits/tags de configuração anteriores, capturas/contextos e fichas originais não foram fornecidos; as justificativas são gerais e a rubrica/critério operacional foram formalizados após a coleta.
 
 ## Resultados
 
-As 12 respostas textuais foram transcritas. Não há avaliações humanas independentes nem resultados F1 válidos; as referências atuais foram criadas com auxílio de IA e não satisfazem o requisito de referência escrita por pessoa. A decisão permanece inconclusiva.
+As 12 respostas e os resultados exploratórios de F1 foram registrados. R1 reportou 12 aprovações; R2 reportou concordância em 4/4 revisões, com justificativa geral. A decisão permanece inconclusiva quanto à superioridade/adoção de B; confira as limitações de pré-registro, referências, configurações e evidências.

@@ -9,8 +9,8 @@ Registro da resposta fornecida pelo estudante para a execução B-CT04.
 - Data/hora exibida pelo aplicativo: 11/11/2026, 09:13
 - Aplicativo/modelo/base: Cherry Studio (identificado na transcrição), Gemini Flash-Lite Latest. A igualdade da base e dos demais parâmetros em relação a A não foi confirmada.
 - Conversa nova: sim, conforme confirmação do estudante.
-- Captura: [PREENCHER: arquivo da captura, se disponível]
-- Contexto recuperado: a resposta exibiu uma citação `1`; o trecho/citação de origem não foi fornecido.
+- Captura: [`../capturas/B-CT04-fonte.png`](../capturas/B-CT04-fonte.png)
+- Contexto recuperado: a captura mostra o painel “DOC-04 — Manual de garantia” e o texto da fonte. O painel identifica DOC-04 como rascunho sintético com auxílio de IA, diz que requer revisão/aprovação humana e contém campos editoriais “PREENCHER”; não há evidência de aprovação anterior ao uso.
 
 ## Pergunta
 

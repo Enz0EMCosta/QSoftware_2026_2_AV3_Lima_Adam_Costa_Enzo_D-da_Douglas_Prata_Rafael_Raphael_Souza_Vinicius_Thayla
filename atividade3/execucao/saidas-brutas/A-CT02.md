@@ -7,10 +7,10 @@ Registro da resposta fornecida pelo estudante para a execução A-CT02.
 - Caso: CT02
 - Versão: A (confirmada pelo estudante)
 - Data: 11/11/2026
-- Horário exibido/informado: 11/11/2026, 09:02 (um minuto antes de CT03, conforme informação do estudante)
+- Horário exibido: 11/11/2026, 09:02 (confirmado pela captura).
 - Aplicativo/modelo/base: Cherry Studio 2.0.13, Gemini Flash-Lite Latest e a mesma base/configuração usadas nas demais respostas, conforme confirmação do estudante.
 - Conversa nova: sim, conforme confirmação do estudante.
-- Captura: [PREENCHER: arquivo da captura, se disponível]
+- Captura: [`../capturas/A-CT02.png`](../capturas/A-CT02.png)
 - Contexto recuperado: a resposta exibiu uma citação `1`; o trecho/citação de origem não foi fornecido.
 
 ## Pergunta
