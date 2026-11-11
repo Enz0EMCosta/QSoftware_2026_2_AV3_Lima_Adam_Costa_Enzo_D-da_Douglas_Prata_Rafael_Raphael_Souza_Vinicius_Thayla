@@ -26,7 +26,7 @@ flowchart LR
 ## Cadeia de rastreabilidade
 
 ```text
-caso (CT01–CT06) -> saída (versão-caso) -> nota (R1; R2 em CT01/CT05) -> decisão -> versão (A/B)
+caso (CT01–CT06) -> saída (versão-caso) -> nota (R1; subconjunto R2 transcrito) -> decisão -> versão (A/B)
 ```
 
 As saídas e notas foram vinculadas a casos e versões nos registros atuais; contudo, os prompts foram informados após as execuções e não há capturas/contextos arquivados nem commits/tags experimentais anteriores. A rastreabilidade é parcial. Preservar os registros sem sobrescrever versões anteriores.
@@ -49,7 +49,7 @@ Os nomes acima são sugestões para uma nova coleta, não tags já criadas nem i
 |---|---|---|---|---|---|
 | CT01 | A e B | Q7M4P2 / M6A1Z4 | R1 e R2 reportados: 2,2,2,0 em ambas | Aprovada; concordância reportada | Manifestos A/B |
 | CT05 | A e B | H4C9L7 / F3J6Q9 | R1 e R2 reportados: 2,2,2,0 em ambas | Aprovada; concordância reportada | Manifestos A/B |
-| Demais CT | CT02–CT04, CT06 em A/B | Ver tabela consolidada | R1 reportado: 2,2,2,0 | Aprovada por R1 reportado | Manifestos A/B |
+| Demais CT | CT02–CT04, CT06 em A/B | Ver tabela consolidada | R1 reportado: 2,2,2,0 | Aprovada por R1 reportado; R2 (Douglas) também avaliou as 12 posteriormente, mas os escores dessas oito respostas não foram transcritos | Manifestos A/B |
 
 ## Reprodução e reversão
 
@@ -70,7 +70,7 @@ Para voltar à configuração A, interromper o uso de B, restaurar literalmente 
 - **A:** baseline com prompt simples.
 - **B:** mudança controlada somente no prompt de sistema.
 - **Execução:** seis casos por versão; preservar saídas, metadados e capturas.
-- **Avaliação:** F1 automático e avaliações humanas R1/R2, com rastreabilidade até a decisão. Resultados atuais: concordância R1–R2 reportada 4/4 nas quatro saídas revisadas.
+- **Avaliação:** F1 automático e avaliações humanas R1 (Thayla) e R2 (Douglas), com rastreabilidade até a decisão. Resultados transcritos: concordância R1–R2 4/4 no subconjunto inicialmente previsto; Douglas avaliou posteriormente as 12 saídas, mas os oito escores adicionais não estão transcritos.
 - **Reprodução:** o manifesto registra a configuração, mas `latest` pode mudar e uma execução por caso não mede variabilidade.
 - **Reversão:** diante de falha crítica, bloquear B conforme regra operacional atual, definida pós-coleta; restaurar A e registrar a ação.
 
@@ -90,4 +90,4 @@ Com metadados e evidências completos, a cadeia caso -> saída -> nota -> decis�
 
 ## Resultados
 
-As 12 respostas e os resultados exploratórios de F1 foram registrados. R1 reportou 12 aprovações; R2 reportou concordância em 4/4 revisões, com justificativa geral. A decisão permanece inconclusiva quanto à superioridade/adoção de B; confira as limitações de pré-registro, referências, configurações e evidências.
+As 12 respostas e os resultados exploratórios de F1 foram registrados. R1 (Thayla) reportou 12 aprovações. R2 (Douglas) reportou concordância em 4/4 saídas do subconjunto inicialmente previsto e avaliou posteriormente todas as respostas; os oito escores adicionais não estão transcritos. A decisão permanece inconclusiva quanto à superioridade/adoção de B; confira as limitações de pré-registro, referências, configurações e evidências.

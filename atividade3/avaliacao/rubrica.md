@@ -30,7 +30,7 @@ A saída é aprovada somente quando correção=2, relevância=2, suporte=2 e fal
 1. Avaliar cada saída individualmente, sem usar o F1 ou o sinal automático para orientar as notas.
 2. Para reduzir viés, ocultar versão e ordem de avaliação; ler pergunta, resposta e fonte pertinente.
 3. Registrar justificativa específica e evidência textual para cada nota. Não inventar justificativas ausentes.
-4. R1 avalia 12 saídas; R2 avalia CT01 e CT05 em A e B (quatro saídas) de forma independente.
+4. O protocolo inicial previa R1 em 12 saídas e R2 em CT01 e CT05 em A e B (quatro saídas) de forma independente. Segundo esclarecimento posterior do estudante, Thayla foi R1 e Douglas foi R2; Douglas também avaliou as 12 saídas posteriormente.
 5. Comparar R1 e R2 antes de conversa; calcular decisões iguais/4. Só então discutir divergências e registrar consenso sem sobrescrever as notas originais.
 
 ## Estado e limitações
@@ -43,4 +43,4 @@ Os critérios agora distinguem correção, relevância, suporte e falha crítica
 
 ## Resultados
 
-As notas reportadas pelo estudante foram transcritas em `r1.csv`. Elas satisfazem aritmeticamente a regra de aprovação (três notas 2 e falha crítica 0), mas a aprovação por versão deve ser tratada como resultado relatado e limitado pelas lacunas de evidência e de pré-registro.
+As notas R1 reportadas pelo estudante foram transcritas em `r1.csv`; os quatro escores R2 inicialmente previstos estão em `r2.csv`. Embora Douglas tenha avaliado posteriormente todas as 12 saídas, os oito escores adicionais não foram transcritos. As notas existentes satisfazem aritmeticamente a regra de aprovação (três notas 2 e falha crítica 0), mas os resultados devem ser tratados como relatados e limitados pelas lacunas de evidência e de pré-registro.

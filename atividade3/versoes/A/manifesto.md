@@ -20,6 +20,7 @@ Documentar a configuração da versão A para rastreabilidade da execução.
 | Casos/referências | CT01–CT06 em `atividade3/casos/casos-e-referencias2.csv`. A fonte é sintética e preparada com IA; o estudante relata revisão humana posterior, sem nome/data ou confirmação independente. |
 | Rubrica/limiar | Rubrica original e limiar pré-teste não fornecidos. `tau = 0,5` foi escolhido posteriormente como parâmetro exploratório, não pré-registrado verificável. |
 | Resultados | Seis respostas A registradas. R1 reportado: correção=2, relevância=2, suporte=2, falha crítica=0 em todas (6/6 aprovações provisórias). O avaliador também reportou 9/10 geral por saída. F1 médio exploratório=0,479003; 2/6 sinais automáticos positivos com tau=0,5 pós-hoc. Justificativas individuais não fornecidas. |
+| Revisão R2 | Douglas foi R2, conforme esclarecimento do estudante. Os escores disponíveis de CT01-A e CT05-A coincidem com R1. Douglas avaliou posteriormente todas as 12 saídas; os demais escores R2 não foram transcritos nos registros. |
 | Limitações de reprodução | O alias `latest` pode mudar; uma execução por caso/versão; parâmetros e contextos recuperados ausentes; capturas de apenas A-CT01/02, sem prompt/configuração. |
 
 ## Resultados

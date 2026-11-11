@@ -12,7 +12,7 @@ Com `tau = 0,5`, o sinal automático aprovou 2/6 respostas A (CT02 e CT06) e 3/6
 
 ## R1 versus R2
 
-O estudante informou que R2 revisou CT01 e CT05 nas duas versões e atribuiu os mesmos escores de R1 nas quatro saídas: concordância de decisões **4/4**. Nenhuma divergência foi reportada; portanto, não houve consenso formal. A justificativa geral reportada foi “Respostas Esperadas e Condizentes”, sem evidência individual anexada. Esse resultado não se estende às outras oito saídas.
+O estudante esclareceu que Thayla foi R1 e Douglas foi R2. Os escores disponíveis de R2 para CT01 e CT05 nas duas versões coincidem com os de R1: concordância de decisões **4/4** no subconjunto inicialmente previsto. Douglas também avaliou posteriormente as 12 saídas, mas os oito escores adicionais não foram transcritos; portanto, a concordância para o conjunto completo não foi calculada. Nenhuma divergência foi reportada no subconjunto documentado, então não houve consenso formal nele. A justificativa geral reportada foi “Respostas Esperadas e Condizentes”, sem evidência individual anexada.
 
 ## Análise do artefato
 

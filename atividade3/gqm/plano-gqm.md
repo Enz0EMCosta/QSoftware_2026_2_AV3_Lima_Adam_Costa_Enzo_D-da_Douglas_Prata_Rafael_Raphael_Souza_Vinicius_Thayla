@@ -12,7 +12,7 @@ Avaliar métricas automáticas versus avaliação humana e o ciclo de vida/versi
 - Com o propósito de: comparar a qualidade humana entre a versão A (baseline) e a versão B (mudança apenas no prompt de sistema) e verificar se o sinal automático acompanha a adequação julgada por pessoas.
 - Com respeito a: correção, relevância, suporte nas fontes, aprovação humana e concordância entre F1 lexical e avaliação humana.
 - Do ponto de vista de: equipe de avaliação da disciplina Qualidade de Software.
-- No contexto de: seis casos CT01–CT06, cada um executado uma vez nas versões A e B, totalizando 12 saídas; R1 avalia as 12 e R2 revisa CT01 e CT05 nas duas versões.
+- No contexto de: seis casos CT01–CT06, cada um executado uma vez nas versões A e B, totalizando 12 saídas; o protocolo inicial previa R1 nas 12 e R2 em CT01 e CT05 nas duas versões. Posteriormente, segundo esclarecimento do estudante, Thayla foi R1 e Douglas foi R2, que avaliou todas as 12 saídas.
 
 ## Q1 — Qualidade das respostas
 
@@ -62,4 +62,4 @@ O relatório e o estudante atribuem a Raphael um plano preparado em 10/11/2026, 
 
 ## Resultados
 
-R1 reportou 6/6 aprovações em A e em B. O F1 médio exploratório foi 0,479003 em A e 0,503373 em B; a concordância entre sinal automático e R1 foi 5/12. R1 e R2 concordaram em 4/4 decisões nas saídas revisadas (CT01 e CT05 em A e B), conforme relato do estudante; justificativa R2 geral: “Respostas Esperadas e Condizentes”. Sob o critério pós-hoc de continuação, B atende numericamente aos dois requisitos reportados (aprovação R1 não inferior e nenhuma falha crítica reportada nas revisões), mas isso significa somente que poderia ser considerada para uma nova avaliação confirmatória. Não implica superioridade nem adoção.
+R1 (Thayla) reportou 6/6 aprovações em A e em B. O F1 médio exploratório foi 0,479003 em A e 0,503373 em B; a concordância entre sinal automático e R1 foi 5/12. R1 e R2 (Douglas) concordaram em 4/4 decisões no subconjunto inicialmente previsto (CT01 e CT05 em A e B), conforme escores transcritos. Douglas também avaliou posteriormente todas as 12 saídas, mas os oito escores adicionais não foram transcritos; portanto, não há cálculo de concordância para o conjunto completo. A justificativa R2 disponível é geral: “Respostas Esperadas e Condizentes”. Sob o critério pós-hoc de continuação, B atende numericamente aos dois requisitos reportados (aprovação R1 não inferior e nenhuma falha crítica reportada nas revisões), mas isso significa somente que poderia ser considerada para uma nova avaliação confirmatória. Não implica superioridade nem adoção.

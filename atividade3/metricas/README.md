@@ -37,6 +37,6 @@ O estudante escolheu `tau` após as execuções; portanto, todos os sinais e com
 | A | 0,479003 | 0,454726 | 2/6 | 6/6 |
 | B | 0,503373 | 0,494036 | 3/6 | 6/6 |
 
-Considerando como aprovadas as 12 respostas segundo R1 reportado, a concordância binária entre sinal automático e R1 é 5/12. Essa comparação é apenas exploratória: o limiar foi escolhido pós-hoc, R1 foi informado pelo estudante sem fichas anexas e a rubrica foi formalizada depois da coleta. Para as quatro saídas revisadas, o estudante reportou concordância R1–R2 de 4/4; as justificativas R2 são gerais e os formulários originais não foram fornecidos.
+Considerando como aprovadas as 12 respostas segundo R1 reportado, a concordância binária entre sinal automático e R1 é 5/12. Essa comparação é apenas exploratória: o limiar foi escolhido pós-hoc, os escores R1 foram transcritos retrospectivamente e a rubrica foi formalizada depois da coleta. O estudante esclareceu que Thayla foi R1 e Douglas foi R2; Douglas avaliou posteriormente todas as 12 respostas. Os quatro escores do subconjunto inicialmente previsto coincidem em 4/4, mas os outros oito escores R2 não foram transcritos e não entram em cálculo. As justificativas R2 são gerais e os formulários originais não foram fornecidos.
 
 Gráfico comparativo: `atividade3/resultados/grafico-resultados.svg`.

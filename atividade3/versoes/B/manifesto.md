@@ -20,6 +20,7 @@ Documentar a configuração da versão B e verificar o controle de variável em 
 | Casos/referências | CT01–CT06 em `atividade3/casos/casos-e-referencias2.csv`. A fonte é sintética e preparada com IA; o estudante relata revisão humana posterior, sem nome/data ou confirmação independente. |
 | Rubrica/limiar | Rubrica original e limiar pré-teste não fornecidos. `tau = 0,5` foi escolhido posteriormente como parâmetro exploratório, não pré-registrado verificável. |
 | Resultados | Seis respostas B registradas. R1 reportado: correção=2, relevância=2, suporte=2, falha crítica=0 em todas (6/6 aprovações provisórias). O avaliador também reportou 10/10 geral por saída. F1 médio exploratório=0,503373; 3/6 sinais automáticos positivos com tau=0,5 pós-hoc. Justificativas individuais não fornecidas. |
+| Revisão R2 | Douglas foi R2, conforme esclarecimento do estudante. Os escores disponíveis de CT01-B e CT05-B coincidem com R1. Douglas avaliou posteriormente todas as 12 saídas; os demais escores R2 não foram transcritos nos registros. |
 | Limitações de reprodução | O alias `latest` pode mudar; uma execução por caso/versão; a mudança de prompt foi relatada após as execuções e não está corroborada por captura/configuração; parâmetros exatos e igualdade da base/contexto não demonstrados. Há capturas parciais B-CT02 e B-CT04, mas nenhuma mostra o prompt de sistema. |
 
 ## Resultados

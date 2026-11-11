@@ -30,6 +30,10 @@ Equipe 04 — 7 pessoas:
 
 [PREENCHER URL]
 
+## Relatório
+
+O texto-base do relatório está em [`atividade3/entrega/relatorio-base.md`](atividade3/entrega/relatorio-base.md). A versão final em PDF ainda deve ser revisada pela equipe e adicionada ao repositório.
+
 ## Índice
 
 - [`atividade3/gqm/`](atividade3/gqm/): plano GQM e critérios, com limitações de pré-registro documentadas.
