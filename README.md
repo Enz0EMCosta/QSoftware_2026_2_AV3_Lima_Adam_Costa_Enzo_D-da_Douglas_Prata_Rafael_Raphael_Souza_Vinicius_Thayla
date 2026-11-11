@@ -16,7 +16,15 @@ Esqueleto do repositório da Atividade 3 da disciplina de Qualidade de Software 
 
 ## Integrantes
 
-Equipe 04 — 7 pessoas: [PREENCHER: nomes que a equipe decidiu publicar; não incluir matrículas.]
+Equipe 04 — 7 pessoas:
+
+- Adam Lima
+- Enzo Emanuel Maia Costa
+- Douglas D-da
+- Rafael Prata
+- Raphael Portella
+- Vinicius Souza
+- Thayla Figueiredo
 
 ## Vídeo da atividade
 
