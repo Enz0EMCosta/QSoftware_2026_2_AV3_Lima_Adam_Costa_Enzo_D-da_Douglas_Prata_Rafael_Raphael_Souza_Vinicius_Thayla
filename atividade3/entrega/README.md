@@ -8,19 +8,19 @@ Conferir completude, consistência e segurança do pacote antes da entrega.
 
 ## Checklist
 
-- [ ] Plano GQM registrado antes dos testes, com Q1/Q2, três medidas, `tau`, regras e critérios.
-- [ ] Seis casos e referências preenchidos e revisados.
-- [ ] Fontes sintéticas identificadas e incluídas.
-- [ ] Prompts e manifestos A/B completos; única mudança B é o prompt de sistema.
-- [ ] Doze saídas brutas vinculadas às capturas disponíveis.
+- [ ] Plano GQM original pré-teste recuperado e verificável; `tau`/critérios originais ainda não fornecidos. O `tau=0,5` atual é pós-hoc.
+- [ ] Seis casos e fontes preenchidos; referências atuais foram geradas com auxílio de IA e ainda não têm aprovação humana.
+- [x] Dois rascunhos de fontes sintéticas identificados; falta aprovação humana e confirmação de que correspondem à base usada.
+- [ ] Prompts de sistema A/B transcritos e comparação que demonstre a única mudança; textos ainda não fornecidos.
+- [ ] Doze respostas transcritas; capturas/contextos e confirmação de igualdade de configuração A/B ainda pendentes.
 - [ ] Cálculo de F1 lexical executado e validado.
-- [ ] R1 concluído para 12 saídas e R2 para as quatro saídas previstas.
-- [ ] Divergências e consensos registrados sem sobrescrever avaliações originais.
-- [ ] Tabela consolidada completa com os denominadores corretos.
+- [ ] R1 concluído por revisor independente para 12 saídas; sem avaliações.
+- [ ] R2 independente para quatro saídas; sem avaliações; não houve consenso.
+- [ ] Tabela consolidada completa com métricas e avaliações válidas; arquivo ainda tem apenas o cabeçalho.
 - [ ] Gráfico: [PREENCHER: caminho/arquivo].
 - [ ] Diagrama e análise do ciclo de vida concluídos.
-- [ ] Decisão experimental vinculada aos critérios pré-registrados.
-- [ ] Declaração de uso de IA concluída.
+- [x] Decisão registrada como inconclusiva, sem recomendação de adoção.
+- [ ] Declaração de uso de IA completa e revisada pelos integrantes; uso de IA para rascunhar fontes/casos já está declarado.
 - [ ] Contribuições da equipe revisadas.
 - [ ] Vídeo registrado em `VIDEO.md` e URL conferida.
 - [ ] Nenhuma chave, credencial, dado pessoal ou documento real publicado.

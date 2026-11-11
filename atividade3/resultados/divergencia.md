@@ -8,16 +8,16 @@ Análise das divergências F1–R1 e R1–R2 após consolidar os dados observado
 
 ## F1 automático versus R1
 
-[PREENCHER: casos divergentes entre `sinal_auto` e decisão R1, total sobre 12 saídas.]
+Não calculado: referências humanas válidas e avaliação R1 não estão disponíveis.
 
 ## R1 versus R2
 
-[PREENCHER: casos divergentes dentre as quatro saídas revisadas e referência ao consenso, quando houver.]
+Não calculado: não há avaliações independentes R1/R2 registradas.
 
 ## Análise do artefato
 
-[PREENCHER: discutir falsos positivos/negativos observados, limites do F1 lexical e alcance restrito da segunda revisão.]
+Não há base válida para identificar divergência observada. O uso das referências atuais, que foram preparadas com auxílio de IA, contrariaria o requisito de referência escrita por pessoa. Também não se pode declarar limite do F1 observado sem cálculo válido e avaliação humana. A limitação metodológica já identificável é que F1 lexical mede sobreposição de tokens e não semântica/suporte.
 
 ## Resultados
 
-[PREENCHER: síntese baseada nos dados consolidados.]
+Sem resultados quantitativos ou divergências humanas disponíveis.

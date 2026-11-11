@@ -36,7 +36,7 @@ Como análise suplementar, calcular concordância R1–R2 como decisões iguais 
 
 ### Limiar automático (`tau`)
 
-O relatório fornecido informa que Raphael fixou `tau` antes das execuções, mas não informa o valor escolhido. **Transcrever o valor exato do plano pré-teste original:** `[PREENCHER: confirmar com Raphael; a informação disponível não permite afirmar se foi 0,5 ou outro valor justificado]`. Não escolher nem alterar o limiar após consultar os resultados.
+O estudante solicitou definir `tau` depois de executar e ver as respostas. Para uma análise **exploratória pós-hoc**, adota-se `tau = 0,5`, opção mencionada no enunciado. Isso não comprova nem substitui um limiar pré-registrado e não deve ser apresentado como critério fixado antes das execuções. O valor original informado como pré-teste por Raphael continua não confirmado.
 
 ## Regra de falha crítica
 
@@ -44,21 +44,21 @@ Registrar falha crítica como 0 (ausente) ou 1 (presente). Qualquer falha críti
 
 ## Critério de avanço
 
-O relatório fornecido confirma que Raphael definiu um critério de avanço antes das execuções, mas não informa seu conteúdo. **Transcrever o critério aprovado no plano pré-teste original:** [PREENCHER: confirmar com Raphael]. Não criar um critério retroativo nem tratar a decisão experimental como autorização para produção.
+O conteúdo do critério atribuído a Raphael não foi fornecido. Não há critério de avanço verificável neste repositório. Não criar um critério retroativo com base nos resultados nem tratar a decisão experimental como autorização para produção.
 
 ## Condição de bloqueio
 
-O relatório fornecido confirma que Raphael definiu uma condição de bloqueio antes das execuções, mas não informa seu conteúdo. **Transcrever a condição aprovada no plano pré-teste original:** [PREENCHER: confirmar com Raphael]. A regra de falha crítica já registrada neste documento permanece: qualquer saída com falha crítica reprova individualmente; confirmar no plano original se também constituía bloqueio da versão.
+O conteúdo da condição atribuída a Raphael não foi fornecido. Não há condição de bloqueio pré-registrada verificável neste repositório. A regra de falha crítica descrita neste esqueleto não permite inferir, retroativamente, o bloqueio originalmente definido para a versão.
 
 ## Registro pré-teste
 
-- Data de registro do plano: [PREENCHER: consultar o commit/registro original; não consta no trecho fornecido].
+- Data de registro do plano: 10/11/2026, conforme informação do estudante; arquivo/commit original que comprove o registro antes dos testes: [NÃO FORNECIDO].
 - Responsável pelo registro: Raphael Portella (conforme a divisão de tarefas informada).
-- Evidência de que o plano foi registrado antes da execução: o relatório afirma que as regras foram fixadas antes das execuções; vincular o commit original e conferir sua data em relação à primeira execução: [PREENCHER].
+- Evidência de que o plano foi registrado antes da execução: relatório e estudante declaram que o plano estava registrado em 10/11/2026; não foi apresentada evidência versionada original. As execuções relatadas ocorreram em 11/11/2026.
 
 ## Análise do artefato
 
-O relatório informa que o plano, o limiar, a rubrica, as regras e os casos foram preparados por Raphael antes das execuções. No clone atual, porém, não há o commit pré-teste nem os valores completos: `tau`, critério de avanço, condição de bloqueio e referências dos casos ainda precisam ser transcritos do artefato original e confrontados com a data da primeira execução. Até essa verificação, este arquivo atualizado não deve ser apresentado como prova de pré-registro.
+O relatório e o estudante atribuem a Raphael um plano preparado em 10/11/2026, antes das respostas de 11/11/2026. Contudo, o arquivo/commit original não foi fornecido, e os valores do limiar original e dos critérios não foram informados. O `tau = 0,5` registrado acima é pós-hoc e exploratório; este arquivo atualizado não é prova de pré-registro. As referências em uso também foram geradas como rascunhos com auxílio de IA e não atendem à exigência de referências escritas por uma pessoa.
 
 ## Resultados
 

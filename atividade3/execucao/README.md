@@ -27,8 +27,8 @@ Em cada arquivo de saída, registrar pergunta/caso, versão, configuração, res
 
 ## Análise do artefato
 
-[PREENCHER: verificar completude, integridade e vínculo entre cada saída, manifesto e captura.]
+As 12 respostas textuais foram recebidas e registradas; horários informados: A-CT01/02 09:02, A-CT03/04/05 09:03, A-CT06 09:04, B-CT01/02/03/04 09:13 e B-CT05/06 09:14, todas em 11/11/2026. O estudante confirmou conversas novas para os seis casos A e para os seis casos B. Capturas e trechos de contexto recuperados não foram fornecidos. O modelo foi identificado como Gemini Flash-Lite Latest; a igualdade de todos os demais parâmetros/base entre A e B não foi demonstrada. Os prompts de sistema também não foram fornecidos, portanto não é possível comprovar que B alterou somente esse fator.
 
 ## Resultados
 
-[PREENCHER após concluir as 12 execuções.]
+Há 12 respostas transcritas, mas os resultados experimentais não estão completos: faltam evidências de captura/contexto, prompts de sistema verificáveis, referências humanas finais e avaliações humanas independentes.

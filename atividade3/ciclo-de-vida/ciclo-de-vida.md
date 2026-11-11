@@ -33,7 +33,9 @@ As versões experimentais A/B ainda dependem da definição e do registro dos pr
 
 ## Versionamento das configurações A e B
 
-Os prompts de A e B ainda não foram registrados, então não há commits ou tags experimentais válidos para criar neste momento. Depois que o plano GQM e os prompts finais forem aprovados, versionar cada configuração antes de executar qualquer caso:
+As respostas A e B já foram executadas em 11/11/2026, mas os textos dos prompts de sistema não foram preservados e não há commits/tags A/B anteriores à execução. Não criar tags retroativas como se as configurações tivessem sido congeladas antes dos testes. O identificador do Cherry Studio é conhecido, mas a configuração experimental completa não é reconstruível.
+
+Para uma repetição futura autorizada, versionar cada configuração antes de executar qualquer caso:
 
 1. Registrar o prompt A e o manifesto A, conferir os demais controles e criar um commit identificável para A.
 2. Marcar esse commit com a tag `av3-a`.
@@ -41,7 +43,7 @@ Os prompts de A e B ainda não foram registrados, então não há commits ou tag
 4. Marcar o commit de B com a tag `av3-b`.
 5. Conferir os alvos com `git show av3-a` e `git show av3-b`; registrar os hashes reais nos manifestos ou na evidência de execução.
 
-Os nomes acima são sugestões de tags, não tags já criadas. Não mover ou reutilizar tags após as execuções. Se o plano, `tau` ou a rubrica ainda não estiverem commitados antes da primeira execução, interromper a coleta e alinhar o cronograma com a equipe, em vez de registrar retroativamente uma pré-inscrição.
+Os nomes acima são sugestões para uma nova coleta, não tags já criadas nem identificadores das respostas existentes. Não mover ou reutilizar tags após as execuções. A escolha de `tau=0,5` ocorreu depois das respostas e é exploratória; não equivale a pré-registro.
 
 | Caso | Saída A/B | Identificador anônimo | Nota(s) | Decisão | Versão/manifesto |
 |---|---|---|---|---|---|
@@ -86,4 +88,4 @@ Com os campos pendentes dos manifestos preenchidos e os artefatos de execução 
 
 ## Resultados
 
-Pendentes da execução e da avaliação. Não há saídas, notas ou decisões experimentais disponíveis neste repositório até o momento.
+As 12 respostas textuais foram transcritas. Não há avaliações humanas independentes nem resultados F1 válidos; as referências atuais foram criadas com auxílio de IA e não satisfazem o requisito de referência escrita por pessoa. A decisão permanece inconclusiva.

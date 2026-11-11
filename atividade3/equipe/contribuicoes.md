@@ -1,25 +1,25 @@
 # Contribuições da equipe
 
-Divisão de responsabilidades da Equipe 04; preencher responsáveis conforme a contribuição efetivamente realizada.
+Registro da divisão informada no relatório e do estado observado neste repositório. A atribuição prevista não deve ser interpretada como prova de que a pessoa executou a tarefa.
 
-| Parte | Descrição | Responsável |
-|---|---|---|
-| 1 | Plano GQM e casos | Raphael Portella |
-| 2 | Execução das versões A e B | Vinicius Souza |
-| 3 | F1 lexical, anonimização e gráfico | Rafael Prata |
-| 4 | Avaliação humana principal (R1) | Thayla Figueiredo |
-| 5 | Segunda revisão (R2), consenso e resultados | Douglas D-da |
-| 6 | Ciclo de vida e versionamento | Enzo Emanuel Maia Costa |
-| 7 | Consolidação (decisão, relatório, repositório, vídeo) | Adam Lima |
+| Parte | Descrição | Responsável previsto no relatório | Estado/execução documentada |
+|---|---|---|---|
+| 1 | Plano GQM e casos | Raphael Ferreira Portella Bacelar | O relatório atribui a preparação a Raphael; o artefato original não foi fornecido. Enzo preparou rascunhos novos com IA, que não substituem referências humanas. |
+| 2 | Execução das versões A e B | Vinícius Morais Souza | As 12 respostas foram executadas/transcritas por Enzo, conforme relato nesta conversa. Prompts de sistema e igualdade da configuração entre A/B não estão comprovados. |
+| 3 | F1 lexical, anonimização e gráfico | Rafael Souza Prata | Não há cálculo F1, planilha anonimizada ou gráfico registrado. |
+| 4 | Avaliação humana principal (R1) | Thayla Almeida Figueiredo | Nenhuma avaliação R1 foi fornecida. Enzo não pode substituir o revisor independente por ter executado as saídas. |
+| 5 | Segunda revisão (R2), consenso e resultados | Douglas de Oliveira Déda | Nenhuma avaliação R2, comparação ou consenso foi fornecido. |
+| 6 | Ciclo de vida e versionamento | Enzo Emanuel Maia Costa | Documentação de ciclo de vida e manifestos preparada por Enzo; commits/tags A/B anteriores à execução não foram criados. |
+| 7 | Consolidação (decisão, relatório, repositório, vídeo) | Adam Guilherme Mendes Lima | README e checklist estruturados; decisão está inconclusiva; relatório final, PDF, slides e vídeo não foram fornecidos. |
 
-Conforme o relatório fornecido pela equipe, Raphael Portella elaborou o plano GQM (objetivo, duas perguntas e três medidas), fixou o limiar `tau`, a rubrica, a regra de falha crítica e os critérios de avanço e bloqueio antes das execuções, e escreveu as seis perguntas e referências dos casos. O valor efetivo de `tau`, o texto dos critérios e o conteúdo das referências precisam ser transcritos dos artefatos originais; não foram incluídos no trecho recebido.
+Os integrantes permanecem listados conforme a composição e as atribuições previstas no relatório da equipe. A tabela distingue essas atribuições do trabalho efetivamente documentado neste repositório; não afirma que integrantes ausentes realizaram atividades não evidenciadas.
 
-Conforme a divisão do relatório, Douglas D-da é responsável pela segunda revisão (R2), pelo consenso e pelos resultados. A atribuição anterior de R2 e consolidação a Enzo foi corrigida com base nessa informação.
+O relatório informa que Raphael teria registrado o GQM, `tau`, rubrica e critérios antes das execuções em 10/11/2026. O arquivo original e o valor efetivo de `tau`/critérios não foram fornecidos. Enzo escolheu `tau=0,5` apenas para análise exploratória pós-hoc; isso não comprova pré-registro.
 
 ## Análise do artefato
 
-[PREENCHER: confirmar divisão e contribuições efetivamente realizadas.]
+A composição e a divisão planejada foram transcritas do relatório enviado pelo estudante. O estado de cada entrega foi limitado às evidências disponíveis na conversa e no repositório.
 
 ## Resultados
 
-[PREENCHER: registrar ajustes da divisão, se houver.]
+Enzo assumiu tarefas operacionais dos demais, conforme relato, mas os materiais ausentes e as avaliações que exigem independência continuam pendentes; não foram atribuídos a pessoas que não as forneceram.

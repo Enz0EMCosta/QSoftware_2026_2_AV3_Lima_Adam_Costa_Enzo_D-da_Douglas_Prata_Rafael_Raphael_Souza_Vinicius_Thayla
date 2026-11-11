@@ -4,7 +4,7 @@ Esqueleto do repositório da Atividade 3 da disciplina de Qualidade de Software 
 
 ## Resumo
 
-[PREENCHER: síntese da atividade, objetivo e principais entregas.]
+Esta atividade investiga, de forma exploratória, a relação entre F1 lexical e adequação humana no fluxo de Base de Conhecimento do Cherry Studio. Foram transcritas seis respostas A e seis B em 11/11/2026. A comparação ainda é inconclusiva: os prompts de sistema e as referências humanas não estão disponíveis, não há avaliações independentes nem métricas válidas registradas e a seleção de `tau=0,5` foi posterior às execuções. Este repositório documenta essas limitações e não apresenta conclusão de superioridade entre versões.
 
 ## Projeto avaliado
 

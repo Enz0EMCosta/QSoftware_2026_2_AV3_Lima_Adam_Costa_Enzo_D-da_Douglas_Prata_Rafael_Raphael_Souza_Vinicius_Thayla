@@ -1,23 +1,31 @@
 # Saída A-CT06
 
-Esqueleto para registrar a resposta bruta da execução A-CT06; não preencher com saída simulada.
+Registro da resposta fornecida pelo estudante para a execução A-CT06.
 
 ## Tarefa
 
 - Caso: CT06
-- Versão: A
-- Data/hora: [PREENCHER]
-- Modelo/parâmetros: [PREENCHER]
-- Captura: [PREENCHER: arquivo em `capturas/`]
+- Versão: A (confirmada pelo estudante)
+- Data/hora exibida pelo aplicativo: 11/11/2026, 09:04
+- Aplicativo/modelo/base: Cherry Studio 2.0.13, Gemini Flash-Lite Latest e a mesma base/configuração usadas nas demais respostas, conforme confirmação do estudante.
+- Conversa nova: sim, conforme confirmação do estudante.
+- Captura: [PREENCHER: arquivo da captura, se disponível]
+- Contexto recuperado: a resposta exibiu uma citação `1`; o trecho/citação de origem não foi fornecido.
+
+## Pergunta
+
+O pacote chegou há vinte dias. Ainda não tirei o produto da embalagem nem usei. Pelas regras da Cereja Eletro, posso pedir a devolução do dinheiro?
 
 ## Resposta literal
 
-[PREENCHER: copiar a resposta efetivamente obtida.]
+Sim, você pode pedir a devolução do dinheiro (reembolso) 1.
+
+De acordo com a política de reembolso da Cereja Eletro, em caso de desistência, o pedido de reembolso pode ser feito em até 30 dias corridos após o recebimento, desde que o produto não tenha sido usado e permaneça lacrado 1. Como o pacote chegou há 20 dias e o produto continua na embalagem sem uso, você cumpre todos os requisitos e está dentro do prazo 1. Se o reembolso for aprovado, o valor integral será devolvido ao meio de pagamento original em até 10 dias úteis após a aprovação 1.
 
 ## Análise do artefato
 
-[PREENCHER]
+[PREENCHER após verificar a saída, a referência humana aprovada e o trecho efetivamente recuperado.]
 
 ## Resultados
 
-[PREENCHER: referência às avaliações e métricas, após conclusão.]
+Não calcular nem registrar F1 ou nota humana neste arquivo; vincular os resultados consolidados depois da avaliação independente.

@@ -1,15 +1,15 @@
 # Prompt — Versão B
 
-Registro do prompt de sistema da versão B; a única mudança em relação à versão A deve ser o prompt de sistema.
+Registro do prompt de sistema da versão B. O texto exato do prompt de sistema não foi fornecido. Os itens enviados como `B-CT01` a `B-CT06` são perguntas de teste, não o prompt de sistema.
 
 ## Tarefa
 
-[PREENCHER: transcrever o prompt de sistema efetivamente executado na versão B.]
+Prompt de sistema efetivamente usado: [NÃO INFORMADO — obter o texto literal da configuração B no Cherry Studio; não reconstruir de memória.]
 
 ## Análise do artefato
 
-[PREENCHER: comparar com `atividade3/versoes/A/prompt.md` e confirmar que somente o prompt de sistema mudou.]
+O estudante confirmou que cada caso B foi executado em conversa nova. O texto do prompt de sistema e evidência suficiente de igualdade dos demais parâmetros/configurações entre A e B não foram fornecidos. Assim, a alegação de que somente o prompt mudou não pode ser verificada neste registro.
 
 ## Resultados
 
-[PREENCHER: vínculo com as seis saídas B-CT01 a B-CT06.]
+As respostas recebidas estão em `atividade3/execucao/saidas-brutas/B-CT01.md` a `B-CT06.md`.

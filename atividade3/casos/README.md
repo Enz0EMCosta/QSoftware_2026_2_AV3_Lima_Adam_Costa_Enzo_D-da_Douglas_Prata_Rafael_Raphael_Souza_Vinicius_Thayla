@@ -4,15 +4,15 @@ Este diretório registra os seis casos e suas respostas de referência; preenche
 
 ## Tarefa
 
-Documentar CT01–CT04 (funcionais), CT05 (sem evidência suficiente) e CT06 (variação de CT01), incluindo pergunta, referência curta escrita por uma pessoa e fonte/trecho sintético correspondente.
+Documentar CT01–CT04 (funcionais), CT05 (sem evidência suficiente) e CT06 (variação de CT01), incluindo pergunta, referência curta e fonte/trecho sintético correspondente.
 
 ## Integridade das referências
 
-O relatório informa que Raphael escreveu os seis casos e suas referências e que uma pessoa os revisou. O texto das perguntas, referências e fontes/trechos não consta no material fornecido nesta conversa e não está preenchido no CSV deste clone. Transcrever os itens originais revisados para `casos-e-referencias.csv`; não gerar referências por IA nem reconstruí-las por suposição.
+As perguntas e referências atuais são rascunhos preparados com auxílio de IA, a partir dos documentos sintéticos igualmente preparados como rascunhos em `atividade3/fontes/`. Não são os casos originais de Raphael nem documentos recuperados da AV2. Como a referência final precisa ser escrita por uma pessoa, um integrante deve redigir ou reescrever cada referência a partir das fontes, revisar as perguntas e aprovar o conjunto antes do teste. Não declarar revisão humana antes que ela ocorra.
 
 ## Análise do artefato
 
-Verificar, com o conteúdo original, a cobertura funcional dos quatro primeiros casos, a ausência deliberada de evidência suficiente em CT05 e a relação de variação entre CT06 e CT01. Registrar quem revisou e confirmar que as referências foram escritas por uma pessoa: [PREENCHER].
+Verificar a cobertura funcional dos quatro primeiros casos, a ausência deliberada de evidência suficiente em CT05 e a relação de variação entre CT06 e CT01. Revisor humano, data e aprovação: [PREENCHER antes da execução].
 
 ## Resultados
 

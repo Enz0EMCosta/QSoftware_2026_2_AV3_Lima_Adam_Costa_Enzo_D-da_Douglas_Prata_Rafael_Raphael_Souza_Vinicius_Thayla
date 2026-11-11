@@ -10,18 +10,18 @@ Documentar a configuração da versão A para rastreabilidade da execução.
 
 | Campo | Registro |
 |---|---|
-| Data de execução | [PREENCHER: registrar a data real após executar os casos; ainda não informada] |
+| Data de execução | 11/11/2026. Horários informados: CT01 e CT02 às 09:02; CT03, CT04 e CT05 às 09:03; CT06 às 09:04. |
 | Código/commit | Cherry Studio v2.0.13, commit `6e3af1beac02cdc53dd2aba382cb6af7475dc669` |
-| Mudança em relação à versão anterior | Baseline; prompt simples. Conteúdo exato pendente de definição e registro antes da execução. |
-| Prompt | `atividade3/versoes/A/prompt.md` — ainda não definido/transcrito; preencher com o prompt aprovado antes da execução. |
+| Mudança em relação à versão anterior | Baseline. O texto exato do prompt de sistema não foi fornecido. |
+| Prompt | `atividade3/versoes/A/prompt.md` registra a lacuna. As perguntas executadas estão em `atividade3/casos/casos-e-referencias.csv`; elas não são o prompt de sistema. |
 | Modelo/revisão | Gemini Flash-Lite Latest (alias `latest`); revisão não congelável. |
-| Parâmetros | [PREENCHER: registrar os parâmetros realmente configurados e mantê-los iguais em B] |
-| Fonte/contexto | Fontes sintéticas planejadas: Cereja Eletro, incluindo DOC-01 (política de reembolso v2) e DOC-04 (manual de garantia). Confirmar arquivos recuperados e contexto efetivamente usado em cada execução. |
-| Casos/referências | CT01–CT06; referências em `atividade3/casos/casos-e-referencias.csv`. Registrar a revisão do arquivo efetivamente usada. |
-| Rubrica/limiar | Rubrica em `atividade3/avaliacao/rubrica.md`; `tau` e rubrica precisam estar definidos e registrados antes das execuções: [PREENCHER]. |
-| Resultados | Pendente: preencher após as seis execuções A, cálculo de F1 e avaliações humanas; não há resultados registrados neste repositório. |
-| Limitações de reprodução | O alias `latest` pode mudar; uma execução por caso/versão. |
+| Parâmetros | [NÃO INFORMADOS; não presumir temperatura, top-p ou outros valores.] |
+| Fonte/contexto | DOC-01 e DOC-04 são rascunhos sintéticos preparados com auxílio de IA nesta atividade. Arquivos/contextos efetivamente recuperados por execução não foram preservados no registro recebido. |
+| Casos/referências | CT01–CT06 em `atividade3/casos/casos-e-referencias.csv`. As referências atuais também foram preparadas com auxílio de IA e não são válidas como referências humanas finais. |
+| Rubrica/limiar | Rubrica original e limiar pré-teste não fornecidos. `tau = 0,5` foi escolhido posteriormente como parâmetro exploratório, não pré-registrado verificável. |
+| Resultados | Seis respostas A foram registradas em `atividade3/execucao/saidas-brutas/A-CT01.md` a `A-CT06.md`. F1 e avaliações humanas não foram calculados/registrados. |
+| Limitações de reprodução | O alias `latest` pode mudar; uma execução por caso/versão; prompt de sistema e parâmetros exatos não foram informados; contextos recuperados e capturas ausentes. |
 
 ## Resultados
 
-Ainda não disponíveis. Após a execução, registrar aprovação humana sobre 6, sinal automático e referência às saídas A-CT01 a A-CT06 e à tabela consolidada.
+As seis respostas estão registradas, mas ainda não há resultados válidos de F1 nem avaliações humanas. Não calcular o F1 oficial contra as referências atuais geradas com auxílio de IA.

@@ -10,12 +10,14 @@ Documentar ferramenta, finalidade, prompt, resumo da saída e verificação huma
 
 | Integrante | IA generativa | Finalidade | Prompt utilizado | Saída (resumo) | Aproveitado/corrigido/rejeitado e verificação |
 |---|---|---|---|---|---|
-| Enzo Emanuel Maia Costa | Assistente de IA nesta interação | Apoio à estruturação e revisão da documentação de ciclo de vida, manifestos, tutorial de tarefas e rascunho de fala de abertura. | Solicitei a criação da estrutura da AV3 e, depois, orientação e execução da minha parte de ciclo de vida/versionamento. | Esqueleto de manifestos e ciclo de vida; análise de limitações de reprodução e reversão; rascunho de slide e abertura; registro de dependências ainda não concluídas. | Estrutura e texto aproveitados como rascunho e revisados contra o estado do repositório. Campos de prompt, resultados, datas e decisões não foram inventados. Verificação final e validação das afirmações experimentais pela equipe ainda pendentes. |
+| Enzo Emanuel Maia Costa | Assistente de IA nesta interação | Criar fontes e rascunhos de casos para a base sintética. | “gere os documentos casos de raphael para eu testar e dar as respostas pa vc” | Foram gerados DOC-01/DOC-04 sintéticos e perguntas/respostas de referência preliminares para CT01–CT06. | Os rascunhos foram usados para preparar/testar as respostas, mas isso contraria a exigência de referências escritas por pessoa. Não usar essas referências como ground truth oficial; reescrever/revisar por pessoa e registrar a limitação e a aprovação do professor. |
+| Enzo Emanuel Maia Costa | Assistente de IA nesta interação | Estruturar documentação, ciclo de vida, manifestos e material de apresentação. | Solicitei a estrutura do repositório e depois a conclusão das partes atribuídas a Enzo. | Esqueletos, análise das limitações de reprodução/reversão, conteúdo de slide e rascunho de abertura. | Aproveitado e revisado contra o estado do repositório. Prompts, resultados e datas não fornecidos não foram inventados. |
+| Enzo Emanuel Maia Costa | Assistente de IA nesta interação | Apoiar o registro das respostas e completar a documentação. | “preencha tudo baseado na parte do que era pra cada um fazer” e pedidos de registro das saídas fornecidas. | Transcrição das 12 respostas e atualização dos metadados conhecidos. | Respostas copiadas do material enviado pelo estudante. A IA não deu notas humanas nem produziu resultados oficiais de F1. Conferir transcrições com capturas originais, que ainda não foram fornecidas. |
 
 ## Análise do artefato
 
-[PREENCHER: verificar completude e separar assistência de IA de avaliações realizadas por pessoas.]
+IA generativa foi usada para criar documentos sintéticos e rascunhos de referências/casos, apesar de a atividade exigir referências escritas por pessoas. Essa divergência deve ser informada ao professor; os rascunhos gerados não devem ser apresentados como referências humanas. As respostas do Cherry Studio são saídas do sistema sob teste, não avaliações humanas.
 
 ## Resultados
 
-[PREENCHER: síntese fiel dos usos documentados.]
+As avaliações humanas R1/R2 continuam sem preenchimento. Nenhuma nota foi gerada por IA.

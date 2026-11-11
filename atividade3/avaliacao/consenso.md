@@ -10,14 +10,14 @@ Comparar R1 e R2 para CT01 e CT05 nas versões A e B e documentar resolução de
 
 | ID anônimo | Caso/versão (após encerramento do cegamento) | Divergência observada | Evidência/referência | Decisão consensual final | Justificativa |
 |---|---|---|---|---|---|
-| [PREENCHER] | [PREENCHER] | [PREENCHER] | [PREENCHER] | [PREENCHER] | [PREENCHER] |
+| Nenhum registro disponível | — | R1 e R2 não foram recebidas | — | Não aplicável | Não há avaliações independentes para comparar. |
 
-Se não houver divergências, registrar isso após comparar as quatro avaliações: [PREENCHER].
+Não concluir que “não houve divergências”: a comparação das quatro avaliações não foi realizada.
 
 ## Análise do artefato
 
-[PREENCHER: verificar que apenas divergências foram submetidas a consenso e que os valores originais foram preservados.]
+Não houve consenso. Preservar os CSVs de avaliação vazios até que revisões humanas válidas sejam realizadas; não criar consenso a partir de notas geradas por IA ou pelo próprio executor.
 
 ## Resultados
 
-[PREENCHER após a comparação.]
+Pendente; nenhuma comparação R1–R2 foi registrada.

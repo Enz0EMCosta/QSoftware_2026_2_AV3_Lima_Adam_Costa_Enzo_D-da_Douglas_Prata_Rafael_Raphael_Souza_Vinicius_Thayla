@@ -4,11 +4,11 @@ Registro das avaliações independentes R1 e R2 segundo a rubrica; resultados de
 
 ## Tarefa
 
-R1 avalia as 12 saídas (seis por versão). R2 revisa CT01 e CT05 em ambas as versões, totalizando quatro saídas. As avaliações devem ser feitas por pessoas, usando a rubrica; somente divergências entre R1 e R2 geram consenso registrado.
+O protocolo previsto é R1 em 12 saídas e R2 em CT01/CT05 nas duas versões (quatro saídas). O executor informou que pretende avaliar as próprias saídas; isso não atende ao requisito de revisão humana independente. Nenhuma nota R1/R2 ou consenso foi registrada.
 
 ## Cegamento e anonimização
 
-[PREENCHER: descrever o procedimento de anonimização e como R1/R2 foram mantidos cegos à versão, quando aplicável.]
+Não foi fornecida planilha anonimizada, chave separada nem evidência de que as avaliações ocorreram às cegas. Não afirmar cegamento realizado.
 
 O arquivo `chave-anonimizacao.csv` fica ignorado pelo Git até que R1 e R2 terminem, para preservar o cegamento. Não publicar chaves, dados pessoais ou credenciais.
 
@@ -22,8 +22,8 @@ O arquivo `chave-anonimizacao.csv` fica ignorado pelo Git até que R1 e R2 termi
 
 ## Análise do artefato
 
-[PREENCHER: conferir preenchimento, independência, cegamento e consistência das avaliações.]
+As avaliações estão pendentes. O executor não deve avaliar as próprias saídas como revisor independente, e uma IA não pode atribuir as notas. É preciso obter revisores humanos distintos do executor ou solicitar ao professor autorização para adaptar o método. A rubrica original e referências escritas por pessoas também não foram fornecidas.
 
 ## Resultados
 
-[PREENCHER após as avaliações humanas.]
+Não há resultados humanos. `r1.csv`, `r2.csv` e `consenso.md` permanecem sem avaliações; não preencher notas por inferência.
