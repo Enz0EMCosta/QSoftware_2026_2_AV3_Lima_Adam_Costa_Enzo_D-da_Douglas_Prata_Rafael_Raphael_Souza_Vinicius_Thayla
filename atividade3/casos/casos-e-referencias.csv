@@ -1,0 +1,7 @@
+caso,tipo,pergunta,referencia,fonte
+CT01,funcional,[PREENCHER],[PREENCHER],[PREENCHER]
+CT02,funcional,[PREENCHER],[PREENCHER],[PREENCHER]
+CT03,funcional,[PREENCHER],[PREENCHER],[PREENCHER]
+CT04,funcional,[PREENCHER],[PREENCHER],[PREENCHER]
+CT05,sem evidência suficiente,[PREENCHER],[PREENCHER: resposta esperada diante de evidência insuficiente],[PREENCHER]
+CT06,variação de CT01,[PREENCHER: variação de CT01],[PREENCHER],[PREENCHER]
