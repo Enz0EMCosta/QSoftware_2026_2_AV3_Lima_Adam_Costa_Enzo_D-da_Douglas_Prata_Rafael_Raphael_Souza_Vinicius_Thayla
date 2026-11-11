@@ -4,11 +4,15 @@ Este diretório registra os seis casos e suas respostas de referência; preenche
 
 ## Tarefa
 
-[PREENCHER: como os casos e referências foram definidos e revisados.]
+Documentar CT01–CT04 (funcionais), CT05 (sem evidência suficiente) e CT06 (variação de CT01), incluindo pergunta, referência curta escrita por uma pessoa e fonte/trecho sintético correspondente.
+
+## Integridade das referências
+
+O relatório informa que Raphael escreveu os seis casos e suas referências e que uma pessoa os revisou. O texto das perguntas, referências e fontes/trechos não consta no material fornecido nesta conversa e não está preenchido no CSV deste clone. Transcrever os itens originais revisados para `casos-e-referencias.csv`; não gerar referências por IA nem reconstruí-las por suposição.
 
 ## Análise do artefato
 
-[PREENCHER: adequação da cobertura funcional, do caso sem evidência suficiente e da variação.]
+Verificar, com o conteúdo original, a cobertura funcional dos quatro primeiros casos, a ausência deliberada de evidência suficiente em CT05 e a relação de variação entre CT06 e CT01. Registrar quem revisou e confirmar que as referências foram escritas por uma pessoa: [PREENCHER].
 
 ## Resultados
 

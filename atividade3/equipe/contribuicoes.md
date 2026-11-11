@@ -8,11 +8,13 @@ Divisão de responsabilidades da Equipe 04; preencher responsáveis conforme a c
 | 2 | Execução das versões A e B | Vinicius Souza |
 | 3 | F1 lexical, anonimização e gráfico | Rafael Prata |
 | 4 | Avaliação humana principal (R1) | Thayla Figueiredo |
-| 5 | Segunda revisão (R2), consenso e resultados | Enzo Emanuel Maia Costa (R2 e consolidação); Thayla Figueiredo (consenso) |
+| 5 | Segunda revisão (R2), consenso e resultados | Douglas D-da |
 | 6 | Ciclo de vida e versionamento | Enzo Emanuel Maia Costa |
 | 7 | Consolidação (decisão, relatório, repositório, vídeo) | Adam Lima |
 
-O integrante Douglas D-da não aparece associado a uma tarefa na sequência de responsabilidades fornecida. Confirmar com a equipe sua parte antes de completar a atribuição: [PREENCHER].
+Conforme o relatório fornecido pela equipe, Raphael Portella elaborou o plano GQM (objetivo, duas perguntas e três medidas), fixou o limiar `tau`, a rubrica, a regra de falha crítica e os critérios de avanço e bloqueio antes das execuções, e escreveu as seis perguntas e referências dos casos. O valor efetivo de `tau`, o texto dos critérios e o conteúdo das referências precisam ser transcritos dos artefatos originais; não foram incluídos no trecho recebido.
+
+Conforme a divisão do relatório, Douglas D-da é responsável pela segunda revisão (R2), pelo consenso e pelos resultados. A atribuição anterior de R2 e consolidação a Enzo foi corrigida com base nessa informação.
 
 ## Análise do artefato
 
