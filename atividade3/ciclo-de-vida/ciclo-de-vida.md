@@ -31,6 +31,18 @@ caso (CT01–CT06) -> saída (versão-caso) -> nota (R1; R2 em CT01/CT05) -> dec
 
 As versões experimentais A/B ainda dependem da definição e do registro dos prompts; as saídas, notas e decisões só podem ser vinculadas depois das respectivas etapas. Preservar os prompts, os manifestos e os resultados sem sobrescrever versões anteriores.
 
+## Versionamento das configurações A e B
+
+Os prompts de A e B ainda não foram registrados, então não há commits ou tags experimentais válidos para criar neste momento. Depois que o plano GQM e os prompts finais forem aprovados, versionar cada configuração antes de executar qualquer caso:
+
+1. Registrar o prompt A e o manifesto A, conferir os demais controles e criar um commit identificável para A.
+2. Marcar esse commit com a tag `av3-a`.
+3. Alterar somente o prompt de sistema para criar B; registrar o prompt e o manifesto B e criar outro commit.
+4. Marcar o commit de B com a tag `av3-b`.
+5. Conferir os alvos com `git show av3-a` e `git show av3-b`; registrar os hashes reais nos manifestos ou na evidência de execução.
+
+Os nomes acima são sugestões de tags, não tags já criadas. Não mover ou reutilizar tags após as execuções. Se o plano, `tau` ou a rubrica ainda não estiverem commitados antes da primeira execução, interromper a coleta e alinhar o cronograma com a equipe, em vez de registrar retroativamente uma pré-inscrição.
+
 | Caso | Saída A/B | Identificador anônimo | Nota(s) | Decisão | Versão/manifesto |
 |---|---|---|---|---|---|
 | [PREENCHER] | [PREENCHER] | [PREENCHER] | [PREENCHER] | [PREENCHER] | [PREENCHER] |
@@ -47,9 +59,30 @@ Acompanhar, por versão, a aprovação humana R1 (aprovadas/6), a contagem de fa
 
 Para voltar à configuração A, interromper o uso de B, restaurar literalmente o prompt de sistema arquivado em `atividade3/versoes/A/prompt.md` e conferir o manifesto A, mantendo constante o commit do software, o modelo selecionado, os parâmetros, as fontes e o contexto sempre que operacionalmente possível. Registrar a reversão, sua data, o motivo e uma verificação com casos definidos pela equipe; não substituir os registros anteriores de B.
 
+## Conteúdo do slide — Enzo
+
+**Título:** Ciclo de vida e versionamento do fluxo generativo
+
+- **A:** baseline com prompt simples.
+- **B:** mudança controlada somente no prompt de sistema.
+- **Execução:** seis casos por versão; preservar saídas, metadados e capturas.
+- **Avaliação:** F1 automático e avaliações humanas R1/R2, com rastreabilidade até a decisão.
+- **Reprodução:** o manifesto registra a configuração, mas `latest` pode mudar e uma execução por caso não mede variabilidade.
+- **Reversão:** diante de bloqueio ou regressão segundo critérios pré-registrados, restaurar o prompt A e registrar a ação.
+
+**Nota para apresentação:** não afirmar que as versões foram congeladas, executadas ou comparadas até haver commits, tags e evidências reais.
+
+## Abertura do vídeo — Enzo
+
+> Olá, somos a Equipe 04 da disciplina de Qualidade de Software da UFS. Nesta atividade, estudamos o fluxo de Base de Conhecimento do Cherry Studio e planejamos comparar duas configurações que diferem apenas no prompt de sistema. Vou apresentar o ciclo de vida e o versionamento previstos, as limitações de reprodução e os critérios para orientar a decisão. Se concluída, a comparação será apresentada com base nas execuções e avaliações registradas neste repositório.
+
+> Se as execuções e avaliações ainda não estiverem concluídas, substituir a última frase por: “A comparação ainda não foi concluída; apresentaremos o plano e as limitações, sem alegar resultados experimentais.”
+
+Não sugerir que os esqueletos ou o diagrama são evidência experimental.
+
 ## Análise do artefato
 
-Com os campos pendentes dos manifestos preenchidos e os artefatos de execução preservados, a cadeia caso -> saída -> nota -> decisão -> versão pode ser auditada. No estado atual, essa rastreabilidade ainda não pode ser demonstrada porque os prompts experimentais e as evidências de execução não foram registrados.
+Com os campos pendentes dos manifestos preenchidos e os artefatos de execução preservados, a cadeia caso -> saída -> nota -> decisão -> versão pode ser auditada. No estado atual, essa rastreabilidade ainda não pode ser demonstrada porque os prompts experimentais, seus commits/tags e as evidências de execução não foram registrados.
 
 ## Resultados
 
