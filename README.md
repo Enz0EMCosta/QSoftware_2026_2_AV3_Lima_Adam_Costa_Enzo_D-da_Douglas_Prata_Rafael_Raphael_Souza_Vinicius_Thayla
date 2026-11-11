@@ -4,7 +4,7 @@ Esqueleto do repositório da Atividade 3 da disciplina de Qualidade de Software 
 
 ## Resumo
 
-Esta atividade documenta uma comparação exploratória planejada entre respostas do fluxo de Base de Conhecimento do Cherry Studio. Foram transcritas seis respostas A e seis B em 11/11/2026. O estudante informou que o mesmo prompt de sistema foi usado nas duas condições, logo a mudança planejada não foi aplicada. Há relato de notas gerais cegas de um colega (A: 9/10; B: 10/10 por saída), mas elas não seguem a rubrica 0/1/2. As referências atuais foram rascunhadas com IA e `tau=0,5` foi escolhido após as execuções. Não há base válida para concluir superioridade entre A e B.
+Esta atividade documenta uma comparação exploratória entre respostas do fluxo de Base de Conhecimento do Cherry Studio. Foram transcritas seis respostas A e seis B em 11/11/2026. O estudante informou posteriormente prompts de sistema diferentes para A e B, sem capturas arquivadas para confirmação independente. Há relato de notas gerais cegas de um colega (A: 9/10; B: 10/10 por saída), mas elas não seguem a rubrica 0/1/2. As referências atuais foram rascunhadas com IA e `tau=0,5` foi escolhido após as execuções. Os resultados não sustentam uma conclusão confirmatória de superioridade entre versões.
 
 ## Projeto avaliado
 

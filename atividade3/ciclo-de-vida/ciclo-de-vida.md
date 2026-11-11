@@ -33,7 +33,7 @@ As versões experimentais A/B ainda dependem da definição e do registro dos pr
 
 ## Versionamento das configurações A e B
 
-As respostas A e B já foram executadas em 11/11/2026. O estudante informou posteriormente o mesmo texto de prompt de sistema para ambas as condições; não há commits/tags A/B anteriores à execução. Não criar tags retroativas como se as configurações tivessem sido congeladas antes dos testes. O texto foi registrado nos arquivos de prompt, mas a configuração experimental completa não é reconstruível.
+As respostas A e B já foram executadas em 11/11/2026. O estudante informou posteriormente prompts diferentes para as condições; os textos estão registrados, mas não há capturas/configurações arquivadas nem commits/tags A/B anteriores às execuções. Não criar tags retroativas como se as configurações tivessem sido congeladas antes dos testes. A configuração experimental completa não é reconstruível.
 
 Para uma repetição futura autorizada, versionar cada configuração antes de executar qualquer caso:
 
@@ -84,7 +84,7 @@ Não sugerir que os esqueletos ou o diagrama são evidência experimental.
 
 ## Análise do artefato
 
-Com metadados e evidências completos, a cadeia caso -> saída -> nota -> decisão -> versão pode ser auditada. No estado atual, a rastreabilidade é parcial: o prompt foi relatado após as execuções, A e B usaram o mesmo texto, não há commits/tags de configuração anteriores, e faltam capturas/contextos e notas na rubrica oficial.
+Com metadados e evidências completos, a cadeia caso -> saída -> nota -> decisão -> versão pode ser auditada. No estado atual, a rastreabilidade é parcial: os prompts foram relatados após as execuções, não há commits/tags de configuração anteriores, faltam capturas/contextos e as notas relatadas não seguem a rubrica oficial.
 
 ## Resultados
 

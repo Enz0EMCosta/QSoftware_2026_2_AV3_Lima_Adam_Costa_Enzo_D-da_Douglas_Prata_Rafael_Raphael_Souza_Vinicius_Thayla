@@ -12,8 +12,8 @@ Documentar a configuração da versão A para rastreabilidade da execução.
 |---|---|
 | Data de execução | 11/11/2026. Horários informados: CT01 e CT02 às 09:02; CT03, CT04 e CT05 às 09:03; CT06 às 09:04. |
 | Código/commit | Cherry Studio v2.0.13, commit `6e3af1beac02cdc53dd2aba382cb6af7475dc669` |
-| Mudança em relação à versão anterior | Baseline. Prompt informado: “Responda a pergunta solicitada de acordo com a Base de Conhecimentos (Knowlege Base) informada”. |
-| Prompt | `atividade3/versoes/A/prompt.md`; texto informado pelo estudante, grafia literal ainda a confirmar contra captura/configuração. |
+| Mudança em relação à versão anterior | Baseline. Prompt informado: “Responda a pergunta solicitada de acordo com a Base de Conhecimentos (Knowledge Base) informada”. |
+| Prompt | `atividade3/versoes/A/prompt.md`; texto informado após as execuções, sem captura/configuração arquivada para confirmação independente. |
 | Modelo/revisão | Gemini Flash-Lite Latest (alias `latest`); revisão não congelável. |
 | Parâmetros | [NÃO INFORMADOS; não presumir temperatura, top-p ou outros valores.] |
 | Fonte/contexto | DOC-01 e DOC-04 são rascunhos sintéticos preparados com auxílio de IA nesta atividade. Arquivos/contextos efetivamente recuperados por execução não foram preservados no registro recebido. |

@@ -4,7 +4,7 @@ Registro do prompt de sistema informado pelo estudante para a versão A.
 
 ## Tarefa
 
-> Responda a pergunta solicitada de acordo com a Base de Conhecimentos (Knowlege Base) informada
+> Responda a pergunta solicitada de acordo com a Base de Conhecimentos (Knowledge Base) informada
 
 ## Perguntas executadas em A
 
@@ -13,7 +13,7 @@ Registro do prompt de sistema informado pelo estudante para a versão A.
 
 ## Análise do artefato
 
-O estudante informou que este mesmo texto foi usado em todas as execuções A e B. A grafia `Knowlege Base` foi preservada como recebida; confirmar com a configuração original/captura se é literal.
+O estudante esclareceu que a grafia correta é `Knowledge Base`. Ele informou que este prompt foi usado nas seis execuções A. O texto foi informado após as execuções e não há captura/configuração arquivada para confirmação independente.
 
 ## Resultados
 

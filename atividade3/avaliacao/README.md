@@ -10,7 +10,7 @@ O protocolo previsto é R1 em 12 saídas e R2 em CT01/CT05 nas duas versões (qu
 
 O estudante informou que um colega, identificado aqui apenas como revisor humano, avaliou individualmente as 12 saídas às cegas e não participou da execução. Segundo o relato, atribuiu nota geral **9/10 a cada saída A** e **10/10 a cada saída B**. Essa informação é um relato do estudante; as fichas originais e justificativas por saída não foram anexadas.
 
-Essas notas não são equivalentes à rubrica exigida (correção, relevância e suporte, cada uma 0–2, mais falha crítica 0/1). Não convertê-las em notas por dimensão, não preencher `r1.csv` com valores inferidos e não calcular aprovação `x/6` a partir delas. Podem ser mencionadas apenas como avaliação geral complementar, com escala e limitação explícitas. O mesmo prompt de sistema foi informado para A e B, portanto a diferença 9/10 versus 10/10 não pode ser atribuída a uma mudança de prompt.
+Essas notas não são equivalentes à rubrica exigida (correção, relevância e suporte, cada uma 0–2, mais falha crítica 0/1). Não convertê-las em notas por dimensão, não preencher `r1.csv` com valores inferidos e não calcular aprovação `x/6` a partir delas. Podem ser mencionadas apenas como avaliação geral complementar, com escala e limitação explícitas. O estudante corrigiu o relato e informou prompts diferentes para A e B; como as configurações não foram arquivadas com capturas e as notas são gerais, a diferença não permite atribuição causal confiável.
 
 ## Cegamento e anonimização
 

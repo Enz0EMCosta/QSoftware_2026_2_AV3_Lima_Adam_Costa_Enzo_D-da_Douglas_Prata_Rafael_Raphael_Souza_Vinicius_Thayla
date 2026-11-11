@@ -19,11 +19,11 @@ Há 12 respostas textuais registradas, seis por versão. Há relato de notas ger
 
 ## Decisão
 
-**Decisão experimental: inconclusiva; não recomendar adoção de B nem declarar superioridade de A.** O estudante informa que A e B usaram o mesmo prompt de sistema, portanto o fator experimental previsto não foi variado. Um colega não executor teria avaliado às cegas cada saída com nota geral 0–10 (A: 9/10 cada; B: 10/10 cada), mas essas notas não correspondem à rubrica 0/1/2 e não permitem calcular a aprovação humana definida no plano. Os critérios originais de avanço/bloqueio não foram fornecidos para verificação; `tau = 0,5` foi indicado somente como escolha exploratória pós-hoc. Isso não é autorização de produção.
+**Decisão experimental: inconclusiva; não recomendar adoção de B nem declarar superioridade confirmada.** O estudante corrigiu o relato e informou prompts distintos para A e B, mas os textos foram registrados após as execuções e não há capturas/configurações arquivadas para verificar a aplicação consistente da única mudança. Um colega não executor teria avaliado às cegas cada saída com nota geral 0–10 (A: 9/10 cada; B: 10/10 cada), mas essas notas não correspondem à rubrica 0/1/2 e não permitem calcular a aprovação humana definida no plano. Os critérios originais de avanço/bloqueio não foram fornecidos para verificação; `tau = 0,5` foi indicado somente como escolha exploratória pós-hoc. Isso não é autorização de produção.
 
 ## Limitações e validade
 
-Uma execução por caso/versão; alias `latest` não congelável; mesmo prompt relatado para A e B, sem manipulação do fator previsto; parâmetros e equivalência de base/configuração não demonstrados; capturas e contextos recuperados ausentes; referências atuais geradas com auxílio de IA, incompatíveis com a exigência de referência humana; notas gerais 9/10 e 10/10 relatadas sem fichas/justificativas e incompatíveis com a rubrica 0/1/2; rubrica original e critérios completos não fornecidos.
+Uma execução por caso/versão; alias `latest` não congelável; prompts diferentes foram relatados após as execuções, sem capturas/configurações arquivadas que comprovem a aplicação; parâmetros e equivalência de base/configuração não demonstrados; contextos recuperados ausentes; referências atuais geradas com auxílio de IA, incompatíveis com a exigência de referência humana; notas gerais 9/10 e 10/10 relatadas sem fichas/justificativas e incompatíveis com a rubrica 0/1/2; rubrica original e critérios completos não fornecidos.
 
 ## Acompanhamento
 
